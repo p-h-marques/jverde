@@ -1,5 +1,7 @@
 <?php require('header.php'); ?>
 
-<p><?= $testeBody; ?></p>
+<section>
+  <p><?= $testeBody; ?></p>
+</section>
 
 <?php require('footer.php'); ?>
