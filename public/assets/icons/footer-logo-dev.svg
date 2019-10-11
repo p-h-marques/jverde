@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="31" viewBox="0 0 30 31">
+  <g id="Grupo_41" data-name="Grupo 41" transform="translate(-458.557 -62.285)">
+    <g id="Grupo_40" data-name="Grupo 40" transform="translate(458.557 62.285)">
+      <rect id="Retângulo_61" data-name="Retângulo 61" width="9.264" height="4.543" rx="2.272" transform="translate(0 22.923)" fill="#fff"/>
+      <rect id="Retângulo_62" data-name="Retângulo 62" width="11.633" height="4.543" rx="2.272" transform="translate(16.09 3.396)" fill="#fff"/>
+      <path id="Caminho_59" data-name="Caminho 59" d="M460.833,72.634v5.714a1.138,1.138,0,0,1-2.276,0v-10.3a5.755,5.755,0,1,1,2.276,4.589Zm0-4.589v.023a3.5,3.5,0,1,0,0-.023Z" transform="translate(-458.557 -62.285)" fill="#fff"/>
+      <path id="Caminho_60" data-name="Caminho 60" d="M508.066,114.158v5.576a1.152,1.152,0,0,1-1.149,1.148,1.133,1.133,0,0,1-1.126-1.148v-5.782a2.345,2.345,0,0,0-4.69,0v5.782a1.133,1.133,0,0,1-1.126,1.148,1.152,1.152,0,0,1-1.149-1.148v-5.782a2.334,2.334,0,0,0-4.667,0v5.782a1.138,1.138,0,1,1-2.276,0v-5.782a4.612,4.612,0,0,1,4.621-4.589,4.552,4.552,0,0,1,3.471,1.583,4.552,4.552,0,0,1,3.472-1.583,4.612,4.612,0,0,1,4.62,4.589Z" transform="translate(-478.066 -89.881)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

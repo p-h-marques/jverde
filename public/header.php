@@ -8,8 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JVerde - Tapetes personalizados, capachos, Clean Kaps e mais!</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- SEO -->
@@ -19,6 +18,33 @@
 
 <body>    
   <header>
-    <h1><?= $testeHeader; ?></h1>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand mr-auto" href="#">
+          <img src="assets/icons/hero-logo.svg">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          ops
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Vantagens</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Distribuidora</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link hero-button" href="#">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
 

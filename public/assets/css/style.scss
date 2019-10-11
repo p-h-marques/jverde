@@ -1,0 +1,65 @@
+@import 'variables.scss';
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	font-size: 1rem;
+	line-height: 1.375rem;
+	color: $dark1;
+	background: $page;
+	width: 100%;
+}
+
+
+header{
+  background: $grad-green;
+  height: 660px;
+
+  nav{
+    height: 100px;
+
+    img{
+      width: 162px;
+      height: 54px;
+    }
+
+    ul.navbar-nav{
+      vertical-align: middle;
+      
+      li.nav-item{
+        margin-left: 50px;
+
+        a.nav-link{
+          color: $light;
+          line-height: 1rem;
+          padding: 5px 0px;
+
+          &:hover{
+            color: $light;
+            font-weight: bold;
+            border-bottom: 3px solid $light;
+          }
+        }
+
+        a.hero-button{
+          font-weight: bold;
+          border: 2px solid $light;
+          border-radius: $border-radius;
+          padding: 5px 15px;
+
+          &:hover{
+            border: none;
+            background: $light;
+            color: $green1;
+            padding: 7px 17px;
+          }
+        }
+      }
+
+    }
+  }
+}
