@@ -4,8 +4,8 @@ $testeBody = 'Olha o corpo. mermão!';
 $testeFooter = 'Olha o footer, mermão!';
 
 //hero banner
-$heroTitle = 'Pensou tapete, pensou JVerde!';
-$heroDescription = 'Excelência em variedade, qualidade e tecnologia, para que sua satisfação seja garantida!';
+$heroTitle = 'Pensou tapete,<br>pensou JVerde!';
+$heroDescription = 'Excelência em variedade, qualidade e tecnologia,<br>para que sua satisfação seja garantida!';
 $heroButton = 'Fale com a gente!';
 
 //products

@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import 'elements.scss';
 @import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap');
 
 *{
@@ -14,52 +15,195 @@ body {
 	width: 100%;
 }
 
+nav.navbar{
+  height: 100px;
+  padding: 0px;
 
-header{
-  background: $grad-green;
-  height: 660px;
+  a.navbar-brand{
+    padding: 23px 0px;
 
-  nav{
-    height: 100px;
-
-    img{
+    img.hero-logo{
       width: 162px;
       height: 54px;
     }
+  }
 
+  img.menu-icon{
+    width: 30px;
+    height: 24px;
+  }
+
+  ul.navbar-nav{
+    vertical-align: middle;
+    
+    li.nav-item{
+      margin-left: 50px;
+
+      a.nav-link{
+        color: $light;
+        line-height: 1rem;
+        padding: 5px 0px;
+
+        &:hover{
+          color: $light;
+          font-weight: bold;
+          border-bottom: 3px solid $light;
+        }
+      }
+
+      a.hero-button{
+        border: 2px solid $light;
+        border-radius: $border-radius;
+        background: $light;
+        color: $green1;
+        padding: 5px 15px;
+        font-weight: bold;
+
+        &:hover{
+          background: $blue;
+          border: 2px solid $blue;
+          color: $light;
+          box-shadow: $sombra;
+        }
+      }
+    }
+
+  }
+
+  @media all and (max-width: 991px){
     ul.navbar-nav{
-      vertical-align: middle;
-      
+      padding: 10px  5px;
+      background: $green2;
+      box-shadow: $sombra;
+
       li.nav-item{
-        margin-left: 50px;
+        margin: 0px 0px 10px 0px;
 
         a.nav-link{
-          color: $light;
-          line-height: 1rem;
-          padding: 5px 0px;
+          padding-left: 8px;
 
           &:hover{
-            color: $light;
-            font-weight: bold;
-            border-bottom: 3px solid $light;
+            border-bottom: none;
+            border-left: 3px solid $light;
+            padding-left: 5px;            
           }
         }
 
         a.hero-button{
-          font-weight: bold;
-          border: 2px solid $light;
-          border-radius: $border-radius;
-          padding: 5px 15px;
+          display: inline-block;
+          padding-left: 15px;
+          margin-left: 8px;
 
           &:hover{
-            border: none;
-            background: $light;
-            color: $green1;
-            padding: 7px 17px;
+            padding: 5px 15px;
           }
         }
       }
+    }
+  }
+}
 
+header{
+  background: url("../icons/hero-circles.svg") no-repeat, $grad-green;
+  background-position: 100% 0px;
+  background-size: contain;  
+  height: 100%;
+  padding-top: 120px;
+  padding-bottom: 70px;
+
+  .hero{
+    min-height: 470px;
+
+    p{
+      margin-top: 20px;
+      margin-bottom: 40px;
+      padding: 0px;
+    }
+    
+    a.hero-button{
+      border: 2px solid $light;
+      border-radius: $border-radius;
+      background: $light;
+      color: $green1;
+      padding: 5px 15px;
+      font-weight: bold;
+
+      &:hover{
+        text-decoration: none;
+        background: $blue;
+        border: 2px solid $blue;
+        color: $light;
+        box-shadow: $sombra;
+      }
+    }
+
+    .hero-points{
+      background: url("../icons/hero-points.svg") no-repeat center;
+      background-size: contain;
+    }
+
+    .hero-images{
+      position: relative;
+      width: 546px;
+      height: 415px;
+
+      img{
+        width: 354px;
+        height: 214px;
+        box-shadow: $sombra;
+        border-radius: $border-radius;
+
+        &.hero-image-1{
+          position: absolute;
+          top: 0px;
+          left: 0px;
+        }
+
+        &.hero-image-2{
+          position: absolute;
+          top: 80px;
+          left: 192px;
+        }
+
+        &.hero-image-3{
+          position: absolute;
+          top: 201px;
+          left: 45px;
+        }
+      }
+    }
+
+    @media all and (max-width: 1199px){
+      .hero-images{
+        position: relative;
+        width: 459px;
+        height: 330px;
+  
+        img{
+          width: 297px;
+          height: 180px;
+          box-shadow: $sombra;
+          border-radius: $border-radius;
+  
+          &.hero-image-1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+          }
+  
+          &.hero-image-2{
+            position: absolute;
+            top: 60px;
+            left: 162px;
+          }
+  
+          &.hero-image-3{
+            position: absolute;
+            top: 150px;
+            left: 45px;
+          }
+        }
+      }
     }
   }
 }

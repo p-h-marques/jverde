@@ -2,6 +2,7 @@
 $light: #FFFFFF;
 $page: #FAFAFA;
 $red: #E21F1F;
+$blue: #3E6BBC;
 
 $dark1: #484848;
 $dark2: #313131;
@@ -12,7 +13,8 @@ $green3: #A5E177;
 $green4: #C1ECA0;
 
 $grad-green: linear-gradient(90deg, $green1, $green2);
-$grad-dark: linear-gradient(90deg, $dark1, $dark2);
+$grad-dark: linear-gradient(45deg, $dark1, $dark2);
 
 //definitions
 $border-radius: 5px;
+$sombra: 0px 0px 5px rgba(0, 0, 0, .1);
