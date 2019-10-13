@@ -103,13 +103,26 @@ nav.navbar{
   }
 }
 
-header{
-  background: url("../icons/hero-circles.svg") no-repeat, $grad-green;
-  background-position: 100% 0px;
+.hero-container{
+  background: url("../icons/hero-circles.svg") no-repeat;
+  background-position: 100% 50%;
   background-size: contain;  
-  height: 100%;
   padding-top: 120px;
   padding-bottom: 70px;
+
+  @media all and (max-width: 1199px){
+    background-size: 80% 80%;
+    background-position: 150% 50%;
+  }
+
+  @media all and (max-width: 991px){
+    background: none;
+  }
+}
+
+header{
+  background: $grad-green;
+  height: 100%;
 
   .hero{
     min-height: 470px;
