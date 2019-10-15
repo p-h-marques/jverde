@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>JVerde - Tapetes personalizados, capachos, Clean Kaps e mais!</title>
 
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- SEO -->
@@ -17,7 +17,7 @@
 </head>
 
 <body>
-  <nav class="navbar fixed-top navbar-expand-lg">
+  <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
     <div class="container">
       <a class="navbar-brand mr-auto" href="#">
         <img src="assets/icons/hero-logo.svg" class="hero-logo">

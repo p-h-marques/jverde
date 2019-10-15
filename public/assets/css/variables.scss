@@ -1,3 +1,10 @@
+//mixins
+@mixin transition ($val1,$val2,$val3){
+  -webkit-transition: $val1 $val2 $val3;
+  -o-transition: $val1 $val2 $val3;
+  transition: $val1 $val2 $val3;
+}
+
 //color pallete
 $light: #FFFFFF;
 $page: #FAFAFA;
@@ -18,3 +25,16 @@ $grad-dark: linear-gradient(45deg, $dark1, $dark2);
 //definitions
 $border-radius: 5px;
 $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
+
+.scroll{
+  background: $grad-green;
+  box-shadow: $sombra;
+  height: 80px!important;
+  @include transition(all,linear,.3s);
+
+  .hero-logo{
+    width: 128px!important;
+    height: 43px!important;
+    @include transition(all,linear,.3s);
+  }
+}

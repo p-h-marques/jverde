@@ -18,11 +18,19 @@ body {
 nav.navbar{
   height: 100px;
   padding: 0px;
+  @include transition(all,linear,.3s);
+
+  @media all and (max-width: 575px){
+    div.container{
+      margin: 0px 30px;
+    }
+  }
 
   a.navbar-brand{
     padding: 23px 0px;
 
     img.hero-logo{
+      @include transition(all,linear,.3s);
       width: 162px;
       height: 54px;
     }
@@ -214,6 +222,39 @@ header{
             position: absolute;
             top: 150px;
             left: 45px;
+          }
+        }
+      }
+    }
+
+    @media all and (max-width: 575px){
+      .hero-images{
+        position: relative;
+        width: 350px;
+        height: 280px;
+  
+        img{
+          width: 250px;
+          height: 150px;
+          box-shadow: $sombra;
+          border-radius: $border-radius;
+  
+          &.hero-image-1{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+          }
+  
+          &.hero-image-2{
+            position: absolute;
+            top: 60px;
+            left: 100px;
+          }
+  
+          &.hero-image-3{
+            position: absolute;
+            top: 130px;
+            left: 30px;
           }
         }
       }

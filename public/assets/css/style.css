@@ -1,4 +1,20 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap");
+.scroll {
+  background: linear-gradient(90deg, #6DBE45, #99D968);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  height: 80px !important;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+.scroll .hero-logo {
+  width: 128px !important;
+  height: 43px !important;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+
 h1 {
   font-size: 3.5rem;
   line-height: 4.25rem;
@@ -6,6 +22,12 @@ h1 {
   color: #FFFFFF;
   padding-bottom: 20px;
   border-bottom: 5px solid #FFFFFF;
+}
+@media all and (max-width: 575px) {
+  h1 {
+    font-size: 3rem;
+    line-height: 3.8rem;
+  }
 }
 
 p {
@@ -37,11 +59,22 @@ body {
 nav.navbar {
   height: 100px;
   padding: 0px;
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
+}
+@media all and (max-width: 575px) {
+  nav.navbar div.container {
+    margin: 0px 30px;
+  }
 }
 nav.navbar a.navbar-brand {
   padding: 23px 0px;
 }
 nav.navbar a.navbar-brand img.hero-logo {
+  -webkit-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  transition: all linear 0.3s;
   width: 162px;
   height: 54px;
 }
@@ -208,6 +241,34 @@ header .hero .hero-images img.hero-image-3 {
     position: absolute;
     top: 150px;
     left: 45px;
+  }
+}
+@media all and (max-width: 575px) {
+  header .hero .hero-images {
+    position: relative;
+    width: 350px;
+    height: 280px;
+  }
+  header .hero .hero-images img {
+    width: 250px;
+    height: 150px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  header .hero .hero-images img.hero-image-1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+  header .hero .hero-images img.hero-image-2 {
+    position: absolute;
+    top: 60px;
+    left: 100px;
+  }
+  header .hero .hero-images img.hero-image-3 {
+    position: absolute;
+    top: 130px;
+    left: 30px;
   }
 }
 
