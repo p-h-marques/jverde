@@ -49,7 +49,7 @@
   <header>
     <div class="container hero-container">
       <div class="row justify-content-center hero">
-        <div class="col-12 col-md-8 col-lg-6 my-auto order-2 order-lg-1 text-center text-lg-left">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6 my-auto order-2 order-lg-1 text-center text-lg-left">
           <h1 class="mt-5 mt-lg-0"> 
             <?= $heroTitle; ?> 
           </h1>
