@@ -13,9 +13,46 @@ h1{
   }
 }
 
+h2{
+  font-size: 2.125rem;
+  line-height: 2.75rem;
+  font-weight: regular;
+  color: $dark1;
+  margin: 0px;
+
+  &.highlight{
+    display: inline-block;
+    color: $light;
+    font-weight: bold;
+    background: $green1;
+    border-radius: $border-radius;
+    padding: 5px 20px 10px 20px;
+    margin-left: 120px;
+
+    @media all and (max-width: 991px){
+      margin-left: 60px;
+    }
+
+    @media all and (max-width: 767px){
+      margin-left: 0px;
+    }
+  }
+}
+
+h3{
+  font-size: 1.375rem;
+  line-height: 1.375rem;
+  font-weight: bold;
+  margin: 0px 0px 10px 0px;
+  padding: 0px 0px 3px 0px;
+  display: inline-block;
+  border-bottom: 3px solid $green1;
+}
+
 p{
   font-size: 1rem;
   line-height: 1.375rem;
+  margin: 0px;
 }
 
 //cores

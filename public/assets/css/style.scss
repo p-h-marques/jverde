@@ -264,3 +264,56 @@ header{
     }
   }
 }
+
+section.products{
+  margin: 100px 0px;
+
+  div.products-intro{
+    margin-bottom: 100px;
+  }
+
+  p.products-description{
+    background: url("../icons/products-points.svg") center;
+    background-size: contain;
+    padding: 20px;
+  }
+
+  .products-principal+.products-principal{
+    margin-top: 30px;
+  }
+
+  div.products-principal{
+    background: $light;
+    border-radius: $border-radius;
+
+    .text-l{
+      border-left: 10px solid $green1;
+      border-radius: $border-radius-left;
+      box-shadow: $sombra;
+      padding: 30px 40px;
+    }
+  
+    .img-r{
+      background: url("../img/capachos.jpg") center;
+      background-size: cover;
+      border-radius: $border-radius-right;
+      box-shadow: $sombra;
+      height: 313px;
+    }
+
+    .text-r{
+      border-right: 10px solid $green1;
+      border-radius: $border-radius-right;
+      box-shadow: $sombra;
+      padding: 30px 40px;
+    }
+  
+    .img-l{
+      background: url("../img/cleankap.jpg") center;
+      background-size: cover;
+      border-radius: $border-radius-left;
+      box-shadow: $sombra;
+      height: 313px;
+    }
+  }
+}

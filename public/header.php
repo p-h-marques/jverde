@@ -65,9 +65,5 @@
         </div>
       </div>
     </div>
-
-
-
-
   </header>
 
