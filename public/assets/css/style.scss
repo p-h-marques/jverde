@@ -280,6 +280,7 @@ section.products{
 
   .products-principal+.products-principal{
     margin-top: 30px;
+    margin-bottom: 100px;
   }
 
   div.products-principal{
@@ -291,6 +292,17 @@ section.products{
       border-radius: $border-radius-left;
       box-shadow: $sombra;
       padding: 30px 40px;
+
+      @media all and (max-width: 991px){
+        border-left: none;
+        border-bottom: 10px solid $green1;
+        border-radius: $border-radius-bottom;
+        text-align: center;
+      }
+
+      h3{
+        border-bottom: 3px solid $green1;
+      }
     }
   
     .img-r{
@@ -299,6 +311,10 @@ section.products{
       border-radius: $border-radius-right;
       box-shadow: $sombra;
       height: 313px;
+
+      @media all and (max-width: 991px){
+        border-radius: $border-radius-top;
+      }
     }
 
     .text-r{
@@ -306,6 +322,17 @@ section.products{
       border-radius: $border-radius-right;
       box-shadow: $sombra;
       padding: 30px 40px;
+
+      @media all and (max-width: 991px){
+        border-right: none;
+        border-bottom: 10px solid $green1;
+        border-radius: $border-radius-bottom;
+        text-align: center;
+      }
+
+      h3{
+        border-bottom: 3px solid $green1;
+      }
     }
   
     .img-l{
@@ -314,6 +341,125 @@ section.products{
       border-radius: $border-radius-left;
       box-shadow: $sombra;
       height: 313px;
+
+      @media all and (max-width: 991px){
+        border-radius: $border-radius-top;
+      }
     }
+  }
+
+  div.products-others{
+    margin-top: 40px;
+    margin-bottom: 100px;
+
+    .product{
+      max-width: 300px;
+
+      .img-product{
+        border-radius: $border-radius;
+        box-shadow: $sombra;
+        height: 160px;
+      }
+
+      .img1{
+        background: url("../img/personalizados-pb.jpg") no-repeat center;
+        background-size: cover;
+      }
+
+      .img2{
+        background: url("../img/umidade-pb.jpg") no-repeat center;
+        background-size: cover;
+      }
+
+      .img3{
+        background: url("../img/antiderrapante-pb.jpg") no-repeat center;
+        background-size: cover;
+      }
+
+      .img4{
+        background: url("../img/grama-pb.jpg") no-repeat center;
+        background-size: cover;
+      }
+
+      .img5{
+        background: url("../img/protetores-pb.jpg") no-repeat center;
+        background-size: cover;
+      }
+  
+      .text-product{
+        background: $light;
+        box-shadow: $sombra;
+        font-weight: regular;
+        border-radius: $border-radius-bottom;
+        border-bottom: 5px solid $dark1;
+        padding: 30px 0px;
+      }
+
+      &:hover{
+        .img1{
+          background: url("../img/personalizados.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img2{
+          background: url("../img/umidade.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img3{
+          background: url("../img/antiderrapante.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img4{
+          background: url("../img/grama.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img5{
+          background: url("../img/protetores.jpg") no-repeat center;
+          background-size: cover;
+        }
+
+        .text-product{
+          font-weight: bold;
+          border-bottom: 5px solid $green1;
+        }
+      }
+
+      @media all and (max-width: 992px){
+        .img1{
+          background: url("../img/personalizados.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img2{
+          background: url("../img/umidade.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img3{
+          background: url("../img/antiderrapante.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img4{
+          background: url("../img/grama.jpg") no-repeat center;
+          background-size: cover;
+        }
+  
+        .img5{
+          background: url("../img/protetores.jpg") no-repeat center;
+          background-size: cover;
+        }
+
+        .text-product{
+          font-weight: bold;
+          border-bottom: 5px solid $green1;
+        }
+      }
+    }
+
+
   }
 }

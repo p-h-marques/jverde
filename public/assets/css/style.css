@@ -64,7 +64,6 @@ h3 {
   margin: 0px 0px 10px 0px;
   padding: 0px 0px 3px 0px;
   display: inline-block;
-  border-bottom: 3px solid #6DBE45;
 }
 
 p {
@@ -326,6 +325,7 @@ section.products p.products-description {
 }
 section.products .products-principal + .products-principal {
   margin-top: 30px;
+  margin-bottom: 100px;
 }
 section.products div.products-principal {
   background: #FFFFFF;
@@ -337,6 +337,17 @@ section.products div.products-principal .text-l {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   padding: 30px 40px;
 }
+@media all and (max-width: 991px) {
+  section.products div.products-principal .text-l {
+    border-left: none;
+    border-bottom: 10px solid #6DBE45;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+  }
+}
+section.products div.products-principal .text-l h3 {
+  border-bottom: 3px solid #6DBE45;
+}
 section.products div.products-principal .img-r {
   background: url("../img/capachos.jpg") center;
   background-size: cover;
@@ -344,11 +355,27 @@ section.products div.products-principal .img-r {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   height: 313px;
 }
+@media all and (max-width: 991px) {
+  section.products div.products-principal .img-r {
+    border-radius: 5px 5px 0px 0px;
+  }
+}
 section.products div.products-principal .text-r {
   border-right: 10px solid #6DBE45;
   border-radius: 0px 5px 5px 0px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   padding: 30px 40px;
+}
+@media all and (max-width: 991px) {
+  section.products div.products-principal .text-r {
+    border-right: none;
+    border-bottom: 10px solid #6DBE45;
+    border-radius: 0px 0px 5px 5px;
+    text-align: center;
+  }
+}
+section.products div.products-principal .text-r h3 {
+  border-bottom: 3px solid #6DBE45;
 }
 section.products div.products-principal .img-l {
   background: url("../img/cleankap.jpg") center;
@@ -356,6 +383,101 @@ section.products div.products-principal .img-l {
   border-radius: 5px 0px 0px 5px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   height: 313px;
+}
+@media all and (max-width: 991px) {
+  section.products div.products-principal .img-l {
+    border-radius: 5px 5px 0px 0px;
+  }
+}
+section.products div.products-others {
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+section.products div.products-others .product {
+  max-width: 300px;
+}
+section.products div.products-others .product .img-product {
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  height: 160px;
+}
+section.products div.products-others .product .img1 {
+  background: url("../img/personalizados-pb.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product .img2 {
+  background: url("../img/umidade-pb.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product .img3 {
+  background: url("../img/antiderrapante-pb.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product .img4 {
+  background: url("../img/grama-pb.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product .img5 {
+  background: url("../img/protetores-pb.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product .text-product {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-weight: regular;
+  border-radius: 0px 0px 5px 5px;
+  border-bottom: 5px solid #484848;
+  padding: 30px 0px;
+}
+section.products div.products-others .product:hover .img1 {
+  background: url("../img/personalizados.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product:hover .img2 {
+  background: url("../img/umidade.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product:hover .img3 {
+  background: url("../img/antiderrapante.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product:hover .img4 {
+  background: url("../img/grama.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product:hover .img5 {
+  background: url("../img/protetores.jpg") no-repeat center;
+  background-size: cover;
+}
+section.products div.products-others .product:hover .text-product {
+  font-weight: bold;
+  border-bottom: 5px solid #6DBE45;
+}
+@media all and (max-width: 992px) {
+  section.products div.products-others .product .img1 {
+    background: url("../img/personalizados.jpg") no-repeat center;
+    background-size: cover;
+  }
+  section.products div.products-others .product .img2 {
+    background: url("../img/umidade.jpg") no-repeat center;
+    background-size: cover;
+  }
+  section.products div.products-others .product .img3 {
+    background: url("../img/antiderrapante.jpg") no-repeat center;
+    background-size: cover;
+  }
+  section.products div.products-others .product .img4 {
+    background: url("../img/grama.jpg") no-repeat center;
+    background-size: cover;
+  }
+  section.products div.products-others .product .img5 {
+    background: url("../img/protetores.jpg") no-repeat center;
+    background-size: cover;
+  }
+  section.products div.products-others .product .text-product {
+    font-weight: bold;
+    border-bottom: 5px solid #6DBE45;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

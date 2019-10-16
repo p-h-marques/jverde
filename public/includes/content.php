@@ -16,11 +16,11 @@ $productsCapachosDescription = 'Além de causar uma boa primeira impressão e au
 $productsCleanKapTitle = 'Clean Kap';
 $productsCleanKapDescription = 'São perfeitos para ambientes internos, e seu nylon de alta torção possibilita um bom desempenho na absorção de umidade, além de possuir uma tecnologia de impressão de ponta, possibilitando a inserção de imagem sofisticadas com uma grande variedade de cores e tamanhos!';
 
-$productsOthers1 = 'Tapetes Personalizados';
-$productsOthers2 = 'Soluções para Áreas Úmidas';
-$productsOthers3 = 'Fitas Antiderrapantes';
-$productsOthers4 = 'Grama Sintética';
-$productsOthers5 = 'Protetores de Piso';
+$productsOthers1 = 'Tapetes<br>Personalizados';
+$productsOthers2 = 'Soluções para<br>Áreas Úmidas';
+$productsOthers3 = 'Fitas<br>Antiderrapantes';
+$productsOthers4 = 'Grama<br>Sintética';
+$productsOthers5 = 'Protetores<br>de Piso';
 
 //benefits
 $benefitsTitle = 'Nossos tapetes possuem vantagens que vão <strong>além da decoração!</strong>';

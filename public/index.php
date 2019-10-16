@@ -16,7 +16,7 @@
     </div>
 
     <div class="row no-gutters products-principal">
-      <div class="col-lg-6 text-l">
+      <div class="col-lg-6 text-l order-2 order-lg-1">
         <div class="d-flex flex-column h-100 justify-content-end">
           <div>
             <h3>
@@ -29,7 +29,7 @@
         </div>
       </div>
 
-      <div class="col-lg-6 img-r"></div>
+      <div class="col-lg-6 img-r order-1 order-lg-2"></div>
     </div>
 
     <div class="row no-gutters products-principal">
@@ -47,6 +47,41 @@
           </div>
         </div>
       </div>      
+    </div>
+
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h3 >Outros Produtos:</h3>
+      </div>
+    </div>
+
+    <div class="row products-others justify-content-center">
+      <div class="col-sm-6 col-md-4 col-lg text-center product">
+        <div class="img-product img1"></div>
+        <div class="text-product"><span><?= $productsOthers1; ?></span></div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg mt-4 mt-sm-0 text-center product">
+        <div class="img-product img2"></div>
+        <div class="text-product"><span><?= $productsOthers2; ?></span></div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg mt-4 mt-md-0 text-center product">
+        <div class="img-product img3"></div>
+        <div class="text-product"><span><?= $productsOthers3; ?></span></div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg mt-4 mt-lg-0 text-center product">
+        <div class="img-product img4"></div>
+        <div class="text-product"><span><?= $productsOthers4; ?></span></div>
+      </div>
+
+      <div class="col-sm-6 col-md-4 col-lg mt-4 mt-lg-0 text-center product">
+        <div class="img-product img5"></div>
+        <div class="text-product"><span><?= $productsOthers5; ?></span></div>
+      </div>
+    </div>
+
     </div>
   </div>
 </section>
