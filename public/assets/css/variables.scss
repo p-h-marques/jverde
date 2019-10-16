@@ -43,3 +43,16 @@ $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
     @include transition(all,linear,.3s);
   }
 }
+
+//general classes
+.color-light{
+  color: $light;
+}
+
+.color-dark1{
+  color: $dark1;
+}
+
+.color-green1{
+  color: $green1;
+}

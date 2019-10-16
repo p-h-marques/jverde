@@ -266,7 +266,7 @@ header{
 }
 
 section.products{
-  margin: 100px 0px;
+  margin: 100px 0px 230px 0px;
 
   div.products-intro{
     margin-bottom: 100px;
@@ -461,5 +461,67 @@ section.products{
     }
 
 
+  }
+}
+
+section.benefits{
+  background: $grad-green;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  div.benefits-title{
+    margin-top: -130px;
+    background: $light;
+    border-radius: $border-radius;
+    box-shadow: $sombra;
+    padding: 50px 100px;
+    vertical-align: middle;
+
+    @media all and (max-width: 992px){
+      padding: 50px;
+    }
+
+    img{
+      display: inline-block;
+      width: 162px;
+      margin-right: 30px;
+
+      @media all and (max-width: 767px){
+        margin-right: 0px;
+        margin-bottom: 30px;
+      }
+    }
+
+    h2{
+      display: inline-block;
+      padding-bottom: 10px;
+      border-bottom: 3px solid $green1;
+      color: $green1;
+    }
+  }
+
+  div.benefits-items{
+    padding: 100px 0px 150px 0px;
+
+    img{
+      width: 100px;
+      margin-right: 30px;
+
+      @media all and (max-width: 575px){
+        margin-right: 0px;
+        margin-bottom: 10px;
+      }
+    }
+
+    h3{
+      color: $light;
+      padding-bottom: 2px;
+      border-bottom: 3px solid $light;
+      margin-bottom: 10px;
+    }
+
+    p{
+      color: $light;
+    }
   }
 }

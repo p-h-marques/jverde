@@ -1,5 +1,7 @@
 <?php require('header.php'); ?>
 
+<!-- <?= $benefitsTitle; ?> -->
+
 <section class="products">
   <div class="container">
     <div class="row justify-content-around products-intro">
@@ -81,7 +83,78 @@
         <div class="text-product"><span><?= $productsOthers5; ?></span></div>
       </div>
     </div>
+  </div>
+</section>
 
+<section class="benefits">
+  <div class="container">
+    <div class="row justify-content-center mx-0">
+      <div class="col-lg-10 col-12 benefits-title">
+        
+        <div class="row no-gutters justify-content-center">
+          <div class="col-md-auto col-12 text-center text-md-left">
+            <img src="assets/icons/benefits-title.svg">
+          </div>
+          <div class="col-md col-12 align-self-center text-center text-md-left">
+            <h2> <?= $benefitsTitle; ?> </h2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+     <div class="benefits-items">
+
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="row no-gutters h-100">
+            <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
+              <img src="assets/icons/benefits-limpeza.svg">
+            </div>
+            <div class="col-sm col-12 align-self-center text-center text-sm-left">
+              <h3> <?= $benefitsLimpezaTitle; ?> </h3>
+              <p> <?= $benefitsLimpezaDescription; ?> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-lg-0 mt-5">
+          <div class="row no-gutters h-100">
+            <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
+              <img src="assets/icons/benefits-estetica.svg">
+            </div>
+            <div class="col-sm col-12 align-self-center text-center text-sm-left">
+              <h3> <?= $benefitsEsteticaTitle; ?> </h3>
+              <p> <?= $benefitsEsteticaDescription; ?> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 mt-5">
+          <div class="row no-gutters h-100">
+            <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
+              <img src="assets/icons/benefits-seguranca.svg">
+            </div>
+            <div class="col-sm col-12 align-self-center text-center text-sm-left">
+              <h3> <?= $benefitsSegurancaTitle; ?> </h3>
+              <p> <?= $benefitsSegurancaDescription; ?> </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6  mt-5">
+          <div class="row no-gutters h-100">
+            <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
+              <img src="assets/icons/benefits-marketing.svg">
+            </div>
+            <div class="col-sm col-12 align-self-center text-center text-sm-left">
+              <h3> <?= $benefitsMarketingTitle; ?> </h3>
+              <p> <?= $benefitsMarketingDescription; ?> </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </section>
