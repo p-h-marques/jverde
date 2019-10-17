@@ -159,4 +159,18 @@
   </div>
 </section>
 
+<section class="distributor">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-5 col-md-10 col-sm-10 col-12 mb-4 mb-lg-0 text-center text-lg-left">
+        <h2> <?= $distributorTitle; ?> </h2>
+        <p> <?= $distributorDescription; ?> </p>
+      </div>
+      <div class="distributor-img col-lg-7 col-md-10 col-11">
+        <img src="assets/img/kapazi.jpg">
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php require('footer.php'); ?>

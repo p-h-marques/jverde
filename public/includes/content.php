@@ -34,7 +34,7 @@ $benefitsMarketingTitle = 'Marketing';
 $benefitsMarketingDescription = 'Um tapete personalizado aumenta a beleza do seu ambiente e o profissionalismo do seu negócio!';
 
 //distributor
-$distributorTitle = 'Somos uma distribuidora autorizada da <strong>Kapazi</strong> em São Paulo!';
+$distributorTitle = 'Somos uma distribuidora autorizada da <strong>Kapazi</strong> no estado de São Paulo!';
 $distributorDescription = 'Com uma infraestrutura de ponta, com processos otimizados e mais de 1.000 colaboradores, a Kapazi é uma indústria 100% brasileira, que atua há 40 anos no mercado nacional e internacional oferece uma ampla gama de tapetes, capachos 
 e similares em diferentes materiais. Sempre investindo forte em novas tecnologias para atender nossos parceiros com qualidade e eficiência, prestamos um serviço de atendimento focado na sua melhor experiência, e fornecemos produtos de qualidade para garantir sua satisfação!';
 
