@@ -613,7 +613,7 @@ section.contact{
       margin: 0px 10px;
     }
 
-    div{
+    div.contact-form-box{
       background: $light;
       border-radius: $border-radius;
       box-shadow: $sombra;
@@ -625,5 +625,70 @@ section.contact{
         margin-top: -50px;
       }
     }
+  }
+}
+
+form{
+  margin: 0px 15px;
+  line-height: 1rem;
+
+  div.form-group{
+    margin-bottom: 25px;
+
+    label{
+      margin-bottom: 8px;
+      margin-left: 10px;
+    }
+
+    input{
+      height: 30px;
+    }
+
+    .form-control{
+      padding: 8px 10px;
+      font-style: italic;
+      border: 1px solid $dark3;
+      
+      &::placeholder{
+        color: $dark3;
+      }
+
+      &:focus{
+        border: 1px solid $dark1;
+        box-shadow: none;
+
+        &::placeholder{
+          color: $dark1;
+        }
+      }
+    }
+
+    .required-text{
+      font-size: 0.875rem;
+      line-height: 0.875rem;
+      font-style: italic;
+    }
+  }
+
+  button.btn{
+    transition: none;
+    background: $green1;
+    color: $light;
+    font-weight: bold;
+    line-height: 1rem;
+    padding: 10px 20px;
+    border-radius: $border-radius;
+    border: none;
+
+    &:hover, &:focus{
+      color: $light;
+      box-shadow: $sombra;
+      background: $blue;
+    }
+  }
+
+  a#contactClearFields{
+    color: $red;
+    margin-left: 10px;
   }
 }
