@@ -567,3 +567,63 @@ section.distributor{
     }
   }
 }
+
+section.contact{
+  div.contact-description{
+    background: $grad-green;
+    box-shadow: $sombra;
+    border-radius: $border-radius;
+    padding: 50px 0px 60px 40px;
+
+    @media all and (max-width: 991px){
+      padding-bottom: 80px;
+      padding-left: 0px;
+    }
+
+    @media all and (max-width: 575px){
+      margin: 0px;
+    }
+    
+    h2{
+      color: $light;
+      padding-bottom: 10px;
+      padding-right: 100px;
+      border-bottom: 3px solid $light;
+      margin-bottom: 20px;
+
+      @media all and (max-width: 991px){
+        text-align: center;
+        padding-right: 0px;
+      }
+    }
+
+    p{
+      color: $light;
+      padding-right: 100px;
+
+      @media all and (max-width: 991px){
+        text-align: center;
+        padding-right: 0px;
+      }
+    }
+  }
+
+  div.contact-form{
+    @media all and (max-width: 575px){
+      margin: 0px 10px;
+    }
+
+    div{
+      background: $light;
+      border-radius: $border-radius;
+      box-shadow: $sombra;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      margin-top: -240px;
+
+      @media all and (max-width: 991px){
+        margin-top: -50px;
+      }
+    }
+  }
+}

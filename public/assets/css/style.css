@@ -581,4 +581,63 @@ section.distributor div.distributor-img img {
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
 
+section.contact div.contact-description {
+  background: linear-gradient(90deg, #6DBE45, #99D968);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 50px 0px 60px 40px;
+}
+@media all and (max-width: 991px) {
+  section.contact div.contact-description {
+    padding-bottom: 80px;
+    padding-left: 0px;
+  }
+}
+@media all and (max-width: 575px) {
+  section.contact div.contact-description {
+    margin: 0px;
+  }
+}
+section.contact div.contact-description h2 {
+  color: #FFFFFF;
+  padding-bottom: 10px;
+  padding-right: 100px;
+  border-bottom: 3px solid #FFFFFF;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 991px) {
+  section.contact div.contact-description h2 {
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+section.contact div.contact-description p {
+  color: #FFFFFF;
+  padding-right: 100px;
+}
+@media all and (max-width: 991px) {
+  section.contact div.contact-description p {
+    text-align: center;
+    padding-right: 0px;
+  }
+}
+@media all and (max-width: 575px) {
+  section.contact div.contact-form {
+    margin: 0px 10px;
+  }
+}
+section.contact div.contact-form div {
+  background: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-top: -240px;
+}
+@media all and (max-width: 991px) {
+  section.contact div.contact-form div {
+    margin-top: -50px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

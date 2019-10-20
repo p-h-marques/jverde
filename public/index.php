@@ -173,4 +173,21 @@
   </div>
 </section>
 
+<section class="contact">
+  <div class="container">
+    <div class="row contact-description justify-content-center justify-content-lg-start">
+      <div class="col-12 col-sm-8 col-lg-5">
+        <h2> <?= $contactTitle; ?> </h2>
+        <p> <?= $contactDescription; ?> </p>
+      </div>
+    </div>
+
+    <div class="row contact-form justify-content-center justify-content-lg-start">
+      <div class="offset-lg-5 col-lg-6 col-sm-10">
+        salve padrinho
+      </div>
+    </div>
+  </div>
+</section>
+
 <?php require('footer.php'); ?>
