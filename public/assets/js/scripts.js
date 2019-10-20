@@ -1,6 +1,5 @@
+//add class header scroll
 jQuery(document).ready(function(e){
-  //add class header scroll
-
   if ( $(this).scrollTop() > 0) {
     jQuery('#navbar').addClass('scroll');
   }else{
@@ -16,4 +15,46 @@ jQuery(document).ready(function(e){
     }
 
   });
+})
+
+//anchor links
+
+$(document).on('click','#productsLink',function(e){
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $('#products').offset().top -180}, '500');
+    return true;
+})
+
+$(document).on('click','#benefitsLink',function(e){
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $('#benefits').offset().top -280}, '500');
+    return true;
+})
+
+$(document).on('click','#distributorLink',function(e){
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $('#distributor').offset().top -130}, '500');
+    return true;
+})
+
+$(document).on('click','#contactLink',function(e){
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $('#contact').offset().top -130}, '500');
+    return true;
+})
+
+$(document).on('click','#logoLink',function(e){
+  e.preventDefault();
+
+  $('html, body').animate({
+    scrollTop: $('body').offset().top}, '500');
+    return true;
 })

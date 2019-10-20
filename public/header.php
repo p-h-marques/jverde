@@ -19,7 +19,7 @@
 <body>
   <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
     <div class="container">
-      <a class="navbar-brand mr-auto" href="#">
+      <a class="navbar-brand mr-auto" href="#" id="logoLink">
         <img src="assets/icons/hero-logo.svg" class="hero-logo">
       </a>
 
@@ -30,16 +30,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#">Produtos</a>
+            <a class="nav-link" href="#" id="productsLink">Produtos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Vantagens</a>
+            <a class="nav-link" href="#" id="benefitsLink">Vantagens</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Distribuidora</a>
+            <a class="nav-link" href="#" id="distributorLink">Distribuidora</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link hero-button" href="#">Contato</a>
+            <a class="nav-link hero-button" href="#" id="contactLink">Contato</a>
           </li>
         </ul>
       </div>
@@ -54,7 +54,7 @@
             <?= $heroTitle; ?> 
           </h1>
           <p class="color-light"> <?= $heroDescription; ?> </p>
-          <a href="#" class="hero-button"> <?= $heroButton; ?> </a>
+          <a href="#" class="hero-button" id="contactLink"> <?= $heroButton; ?> </a>
         </div>
         <div class="col-lg-6 m-auto hero-points order-1 order-lg-2">
           <div class="hero-images mx-auto my-lg-0">

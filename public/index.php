@@ -2,7 +2,7 @@
 
 <!-- <?= $benefitsTitle; ?> -->
 
-<section class="products">
+<section class="products" id="products">
   <div class="container">
     <div class="row justify-content-around products-intro">
       <div class="col-md-6 col-lg-4 col-xl-4 text-center">
@@ -86,7 +86,7 @@
   </div>
 </section>
 
-<section class="benefits">
+<section class="benefits" id="benefits">
   <div class="container">
     <div class="row justify-content-center mx-0">
       <div class="col-lg-10 col-12 benefits-title">
@@ -159,7 +159,7 @@
   </div>
 </section>
 
-<section class="distributor">
+<section class="distributor" id="distributor">
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-5 col-md-10 col-sm-10 col-12 mb-4 mb-lg-0 text-center text-lg-left">
@@ -173,7 +173,7 @@
   </div>
 </section>
 
-<section class="contact">
+<section class="contact" id="contact">
   <div class="container">
     <div class="row contact-description justify-content-center justify-content-lg-start">
       <div class="col-12 col-sm-8 col-lg-5">

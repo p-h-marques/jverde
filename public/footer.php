@@ -9,16 +9,16 @@
         <ul>
           <li><strong>Seções</strong></li>
           <li>
-            <a href="#">Produtos</a>
+            <a href="#" id="productsLink">Produtos</a>
           </li>
           <li>
-            <a href="#">Vantagens</a>
+            <a href="#" id="benefitsLink">Vantagens</a>
           </li>
           <li>
-            <a href="#">Distribuidora</a>
+            <a href="#" id="distributorLink">Distribuidora</a>
           </li>
           <li>
-            <a href="#">Contato</a>
+            <a href="#" id="contactLink">Contato</a>
           </li>
         </ul>
       </div>
