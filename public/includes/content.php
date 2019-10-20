@@ -1,8 +1,4 @@
 <?php
-$testeHeader = 'Olha o header, mermão!';
-$testeBody = 'Olha o corpo. mermão!';
-$testeFooter = 'Olha o footer, mermão!';
-
 //hero banner
 $heroTitle = 'Pensou tapete,<br>pensou JVerde!';
 $heroDescription = 'Excelência em variedade, qualidade e tecnologia,<br>para que sua satisfação seja garantida!';
