@@ -33,7 +33,7 @@ $border-radius-bottom: 0px 0px 5px 5px;
 $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
 
 .scroll{
-  background: $grad-green;
+  background: $dark1;
   box-shadow: $sombra;
   height: 80px!important;
   @include transition(all,linear,.3s);
@@ -41,6 +41,7 @@ $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
   .hero-logo{
     width: 128px!important;
     height: 43px!important;
+    background: url(../icons/hero-logo-2.svg) no-repeat center!important;
     @include transition(all,linear,.3s);
   }
 }

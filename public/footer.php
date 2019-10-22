@@ -1,11 +1,15 @@
 <footer>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-2 col-md-5 col-sm-4 col-12 text-center text-sm-left">
+      <div class="text-right col-lg-2 col-6">
         <img src="assets/icons/footer-logo.svg" class="logo-jverde">
       </div>
 
-      <div class="col-lg-2 col-md-3 col-sm-3 col-12 text-center text-sm-left mt-5 mt-sm-0">
+      <div class="col-lg-1 col-6">
+        <img src="assets/img/selo.jpg" class="selo">
+      </div>
+
+      <div class="mt-lg-0 mt-5 col-lg-2 col-sm-3 col-12 text-center text-sm-left">
         <ul>
           <li><strong>Seções</strong></li>
           <li>
@@ -23,21 +27,21 @@
         </ul>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-5 col-12 text-center text-sm-left mt-5 mt-sm-0">
+      <div class="mt-lg-0 mt-5 col-lg-6 col-sm-8 col-12 text-center text-sm-left">
         <ul>
           <li><strong>Contato</strong></li>
           <li>
             <img src="assets/icons/footer-whatsapp.svg" class="logo-whatsapp">
-            <span>12.98765.4321</span>
+            <span>11.96380.4422</span>
           </li>
           <li>
             <img src="assets/icons/footer-email.svg" class="logo-email">
-            <span>email@contato.com.br</span>
+            <span>farley.moura@cooperkap.com.br</span>
           </li>
         </ul>
       </div>
 
-      <div class="text-lg-right text-center mt-5 mt-lg-0 col-lg-1 offset-lg-4 col-12">
+      <div class="mt-lg-0 mt-5 col-sm-1 col-12 text-center text-sm-left">        
         <img src="assets/icons/footer-logo-dev.svg" class="logo-pm">
       </div>
     </div>

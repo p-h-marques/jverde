@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap");
 .scroll {
-  background: linear-gradient(90deg, #6DBE45, #99D968);
+  background: #484848;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   height: 80px !important;
   -webkit-transition: all linear 0.3s;
@@ -10,6 +10,7 @@
 .scroll .hero-logo {
   width: 128px !important;
   height: 43px !important;
+  background: url(../icons/hero-logo-2.svg) no-repeat center !important;
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
@@ -109,15 +110,20 @@ nav.navbar {
     margin: 0px 30px;
   }
 }
-nav.navbar a.navbar-brand {
-  padding: 23px 0px;
+@media all and (max-width: 991px) {
+  nav.navbar div.container {
+    padding-top: 17px;
+    padding-bottom: 17px;
+  }
 }
-nav.navbar a.navbar-brand img.hero-logo {
+nav.navbar a.navbar-brand.hero-logo {
+  padding: 23px 0px;
+  width: 162px;
+  height: 54px;
+  background: url(../icons/hero-logo.svg) no-repeat center;
   -webkit-transition: all linear 0.3s;
   -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
-  width: 162px;
-  height: 54px;
 }
 nav.navbar img.menu-icon {
   width: 30px;
@@ -143,7 +149,7 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button {
   border: 2px solid #FFFFFF;
   border-radius: 5px;
   background: #FFFFFF;
-  color: #6DBE45;
+  color: #484848;
   padding: 5px 15px;
   font-weight: bold;
 }
@@ -156,9 +162,10 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
 @media all and (max-width: 991px) {
   nav.navbar ul.navbar-nav {
     padding: 10px 5px;
-    background: #99D968;
+    background: #484848;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
     text-align: center;
+    margin-top: 20px;
   }
   nav.navbar ul.navbar-nav li.nav-item {
     margin: 0px 0px 10px 0px;
@@ -729,6 +736,9 @@ footer ul li a:hover {
 }
 footer img.logo-pm {
   width: 30px;
+}
+footer img.selo {
+  width: 40px;
 }
 
 /*# sourceMappingURL=style.css.map */

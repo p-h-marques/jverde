@@ -17,6 +17,17 @@ jQuery(document).ready(function(e){
   });
 })
 
+//closing mobile menu with outside touch
+$(document).mouseup(function(e){
+  click = $(e.target);
+  menu = $('.show');
+
+  if(!click.closest('.show').length){
+    menu.removeClass('show');
+  }  
+});
+
+
 //anchor links
 
 $(document).on('click','#productsLink',function(e){

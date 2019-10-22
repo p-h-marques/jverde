@@ -19,8 +19,8 @@
 <body>
   <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
     <div class="container">
-      <a class="navbar-brand mr-auto" href="#" id="logoLink">
-        <img src="assets/icons/hero-logo.svg" class="hero-logo">
+      <a class="navbar-brand mr-auto hero-logo" href="#" id="logoLink">
+        
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

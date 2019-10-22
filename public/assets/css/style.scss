@@ -26,14 +26,19 @@ nav.navbar{
     }
   }
 
-  a.navbar-brand{
-    padding: 23px 0px;
-
-    img.hero-logo{
-      @include transition(all,linear,.3s);
-      width: 162px;
-      height: 54px;
+  @media all and (max-width: 991px){
+    div.container{
+      padding-top: 17px;
+      padding-bottom: 17px;
     }
+  }
+
+  a.navbar-brand.hero-logo{
+    padding: 23px 0px;   
+    width: 162px;
+    height: 54px;
+    background: url(../icons/hero-logo.svg) no-repeat center;
+    @include transition(all,linear,.3s);    
   }
 
   img.menu-icon{
@@ -63,7 +68,7 @@ nav.navbar{
         border: 2px solid $light;
         border-radius: $border-radius;
         background: $light;
-        color: $green1;
+        color: $dark1;
         padding: 5px 15px;
         font-weight: bold;
 
@@ -81,9 +86,10 @@ nav.navbar{
   @media all and (max-width: 991px){
     ul.navbar-nav{
       padding: 10px  5px;
-      background: $green2;
+      background: $dark1;
       box-shadow: $sombra;
       text-align: center;
+      margin-top: 20px;
 
       li.nav-item{
         margin: 0px 0px 10px 0px;
@@ -736,5 +742,9 @@ footer{
 
   img.logo-pm{
     width: 30px;
+  }
+
+  img.selo{
+    width: 40px;
   }
 }
