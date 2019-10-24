@@ -189,6 +189,7 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
     display: inline-block;
     margin-left: 8px;
     padding-bottom: 5px;
+    color: #484848;
   }
   nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
     padding: 5px 15px;
