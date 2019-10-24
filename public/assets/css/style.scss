@@ -68,7 +68,7 @@ nav.navbar{
         border: 2px solid $light;
         border-radius: $border-radius;
         background: $light;
-        color: $dark1;
+        color: $green1;
         padding: 5px 15px;
         font-weight: bold;
 
@@ -746,5 +746,20 @@ footer{
 
   img.selo{
     width: 40px;
+  }
+}
+
+.wpp-button{
+  display: block;
+  position: fixed;
+  z-index: 9999;
+  bottom: 20px;
+  right: 5%;
+  width: 70px;
+  height: 70px;
+  background: url('../icons/whatsapp-button.svg') center no-repeat;
+
+  &:hover{
+    background: url('../icons/whatsapp-button-hover.svg') center no-repeat;
   }
 }

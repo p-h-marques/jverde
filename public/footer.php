@@ -2,11 +2,11 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="text-right col-lg-2 col-6">
-        <img src="assets/icons/footer-logo.svg" class="logo-jverde">
+        <img src="assets/icons/footer-logo.svg" class="logo-jverde" alt="JVerde">
       </div>
 
       <div class="col-lg-1 col-6">
-        <img src="assets/img/selo.jpg" class="selo">
+        <img src="assets/img/selo.jpg" class="selo" alt="Mundo Melhor Kapazi: Produtos ecologicamente corretos!">
       </div>
 
       <div class="mt-lg-0 mt-5 col-lg-2 col-sm-3 col-12 text-center text-sm-left">
@@ -31,12 +31,16 @@
         <ul>
           <li><strong>Contato</strong></li>
           <li>
-            <img src="assets/icons/footer-whatsapp.svg" class="logo-whatsapp">
-            <span>11.96380.4422</span>
+            <img src="assets/icons/footer-whatsapp.svg" class="logo-whatsapp" alt="WhatsApp">
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5512981805133" target="_blank">
+              <span>11.96380.4422</span>
+            </a>
           </li>
           <li>
-            <img src="assets/icons/footer-email.svg" class="logo-email">
-            <span>farley.moura@cooperkap.com.br</span>
+            <img src="assets/icons/footer-email.svg" class="logo-email" alt="Email">
+            <a href="mailto: contato@jverde.com.br" target="_blank">
+              <span>contato@jverde.com.br</span>
+            </a>
           </li>
         </ul>
       </div>

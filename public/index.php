@@ -93,7 +93,7 @@
         
         <div class="row no-gutters justify-content-center">
           <div class="col-md-auto col-12 text-center text-md-left">
-            <img src="assets/icons/benefits-title.svg">
+            <img src="assets/icons/benefits-title.svg" alt="Nossas vantagens">
           </div>
           <div class="col-md col-12 align-self-center text-center text-md-left">
             <h2> <?= $benefitsTitle; ?> </h2>
@@ -109,7 +109,7 @@
         <div class="col-lg-6">
           <div class="row no-gutters h-100">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
-              <img src="assets/icons/benefits-limpeza.svg">
+              <img src="assets/icons/benefits-limpeza.svg" alt="Limpeza">
             </div>
             <div class="col-sm col-12 align-self-center text-center text-sm-left">
               <h3> <?= $benefitsLimpezaTitle; ?> </h3>
@@ -121,7 +121,7 @@
         <div class="col-lg-6 mt-lg-0 mt-5">
           <div class="row no-gutters h-100">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
-              <img src="assets/icons/benefits-estetica.svg">
+              <img src="assets/icons/benefits-estetica.svg" alt="Estética">
             </div>
             <div class="col-sm col-12 align-self-center text-center text-sm-left">
               <h3> <?= $benefitsEsteticaTitle; ?> </h3>
@@ -133,7 +133,7 @@
         <div class="col-lg-6 mt-5">
           <div class="row no-gutters h-100">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
-              <img src="assets/icons/benefits-seguranca.svg">
+              <img src="assets/icons/benefits-seguranca.svg" alt="Segurança">
             </div>
             <div class="col-sm col-12 align-self-center text-center text-sm-left">
               <h3> <?= $benefitsSegurancaTitle; ?> </h3>
@@ -145,7 +145,7 @@
         <div class="col-lg-6  mt-5">
           <div class="row no-gutters h-100">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
-              <img src="assets/icons/benefits-marketing.svg">
+              <img src="assets/icons/benefits-marketing.svg" alt="Marketing">
             </div>
             <div class="col-sm col-12 align-self-center text-center text-sm-left">
               <h3> <?= $benefitsMarketingTitle; ?> </h3>
@@ -167,7 +167,7 @@
         <p> <?= $distributorDescription; ?> </p>
       </div>
       <div class="distributor-img col-lg-7 col-md-10 col-11">
-        <img src="assets/img/kapazi.jpg">
+        <img src="assets/img/kapazi.jpg" alt="Distribuidora Kapazi, líder de mercado em tapetes e capachos do Brasil!">
       </div>
     </div>
   </div>

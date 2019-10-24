@@ -6,14 +6,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
     <title>JVerde - Tapetes personalizados, capachos, Clean Kaps e mais!</title>
 
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="shortcut icon" href="assets/icons/favicon.svg">
+
     <!-- SEO -->
-    <meta name="description" content="Descrição do site aqui!">
-    <meta property="og:description" content="Descrição do site aqui!">
+    <meta name="description" content="Encontre aqui tapetes personalizados, capachos, Clean Kaps e muito mais produtos de qualidade para manter em alto nível a limpeza, beleza e segurança de seus ambientes!">
+    <meta property="og:description" content="Encontre aqui tapetes personalizados, capachos, Clean Kaps e muito mais produtos de qualidade para manter em alto nível a limpeza, beleza e segurança de seus ambientes!">
 </head>
 
 <body>
@@ -24,7 +27,7 @@
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <img src="assets/icons/menu.svg" class="menu-icon">
+        <img src="assets/icons/menu.svg" class="menu-icon" alt="Menu">
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -58,12 +61,17 @@
         </div>
         <div class="col-lg-6 m-auto hero-points order-1 order-lg-2">
           <div class="hero-images mx-auto my-lg-0">
-            <img src="assets/img/principal1.jpg" class="hero-image-1">
-            <img src="assets/img/principal2.jpg" class="hero-image-2">
-            <img src="assets/img/principal3.jpg" class="hero-image-3">
+            <img src="assets/img/principal1.jpg" class="hero-image-1"  alt="Tapetes Personalizados">
+            <img src="assets/img/principal2.jpg" class="hero-image-2" alt="Clean Kaps">
+            <img src="assets/img/principal3.jpg" class="hero-image-3" alt="Tapetes Personalizados">
           </img>
         </div>
       </div>
     </div>
   </header>
+
+
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5512981805133" target="_blank" class="wpp-button">
+    </a>    
+ 
 

@@ -18,7 +18,7 @@ jQuery(document).ready(function(e){
 })
 
 //closing mobile menu with outside touch
-$(document).mouseup(function(e){
+$(document).mousedown(function(e){
   click = $(e.target);
   menu = $('.show');
 
