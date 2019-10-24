@@ -15,6 +15,12 @@
   -o-transition: all linear 0.3s;
   transition: all linear 0.3s;
 }
+.scroll #contactLink {
+  color: #484848 !important;
+}
+.scroll #contactLink:hover {
+  color: #FFFFFF !important;
+}
 
 .color-light {
   color: #FFFFFF;

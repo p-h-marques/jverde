@@ -44,6 +44,14 @@ $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
     background: url(../icons/hero-logo-2.svg) no-repeat center!important;
     @include transition(all,linear,.3s);
   }
+
+  #contactLink{
+    color: $dark1!important;
+
+    &:hover{
+      color: $light!important;
+    }
+  }
 }
 
 //general classes
