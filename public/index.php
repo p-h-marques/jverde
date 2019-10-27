@@ -185,45 +185,39 @@
     <div class="row contact-form justify-content-center justify-content-lg-start">
       <div class="offset-lg-5 col-lg-6 col-sm-10 contact-form-box">
 
-        <form>
+        <form action="" method="post" id="send-contact">
           <div class="form-group">
             <label for="contactName">Nome: *</label>
-            <input type="text" class="form-control" id="contactName"
-            placeholder="Digite aqui seu nome">
+            <input type="text" class="form-control" name="contactName" placeholder="Digite aqui seu nome">
           </div>
 
           <div class="form-group">
             <label for="contactPhone">Telefone: *</label>
-            <input type="text" class="form-control" id="contactPhone"
-            placeholder="Use o formato (12) 99999-9999">
+            <input type="text" class="form-control" name="contactPhone" id="contactPhone" placeholder="Use o formato (12) 99999-9999">
           </div>
 
           <div class="form-group">
             <label for="contactEmail">Email:</label>
-            <input type="email" class="form-control" id="contactEmail"
-            placeholder="Digite aqui seu melhor email">
+            <input type="email" class="form-control" name="contactEmail" placeholder="Digite aqui seu melhor email">
           </div>
 
           <div class="form-group">
             <label for="contactCity">Cidade: *</label>
-            <input type="text" class="form-control" id="contactCity"
-            placeholder="Digite aqui sua cidade e seu estado">
+            <input type="text" class="form-control" name="contactCity" placeholder="Digite aqui sua cidade e seu estado">
           </div>
 
           <div class="form-group">
             <label for="contactProduct">Produtos de interesse e suas medidas:</label>
-            <textarea class="form-control" id="contactProduct" rows="5"
-            placeholder="Caso já tenha alguma demanda em mente, digite aqui o produto sobre o qual quer saber mais, e suas medidas, para que possamos já direcionar para você o melhor atendimento!"></textarea>
+            <textarea class="form-control" name="contactProduct" rows="5" placeholder="Caso já tenha alguma demanda em mente, digite aqui o produto sobre o qual quer saber mais, e suas medidas, para que possamos já direcionar para você o melhor atendimento!"></textarea>
           </div>
 
           <div class="form-group">
             <label for="contactMessage">Mais informações:</label>
-            <textarea class="form-control" id="contactMessage" rows="3"
-            placeholder="Caso julgue necessário nos passar mais alguma informação relevante, aqui é o momento!"></textarea>
+            <textarea class="form-control" name="contactMessage" rows="3" placeholder="Caso julgue necessário nos passar mais alguma informação relevante, aqui é o momento!"></textarea>
           </div>
 
           <div class="form-group">
-            <label class="required-text">*Campos obrigatórios.</label>
+            <label class="required-text">* Campos obrigatórios.</label>
           </div>
 
           <div class="row justify-content-between align-items-center">
