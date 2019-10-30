@@ -185,15 +185,15 @@
     <div class="row contact-form justify-content-center justify-content-lg-start">
       <div class="offset-lg-5 col-lg-6 col-sm-10 contact-form-box">
 
-        <form action="" method="post" id="send-contact">
+        <form action="" method="post" id="send-contact" class="needs-validation" novalidate>
           <div class="form-group">
             <label for="contactName">Nome: *</label>
-            <input type="text" class="form-control" name="contactName" placeholder="Digite aqui seu nome">
+            <input type="text" class="form-control" name="contactName" id="contactName" placeholder="Digite aqui seu nome" required>
           </div>
 
           <div class="form-group">
             <label for="contactPhone">Telefone: *</label>
-            <input type="text" class="form-control" name="contactPhone" id="contactPhone" placeholder="Use o formato (12) 99999-9999">
+            <input type="text" class="form-control" name="contactPhone" id="contactPhone" placeholder="Use o formato (12) 99999-9999" required>
           </div>
 
           <div class="form-group">
@@ -203,7 +203,7 @@
 
           <div class="form-group">
             <label for="contactCity">Cidade: *</label>
-            <input type="text" class="form-control" name="contactCity" placeholder="Digite aqui sua cidade e seu estado">
+            <input type="text" class="form-control" name="contactCity" id= "contactCity" placeholder="Digite aqui sua cidade e seu estado" required>
           </div>
 
           <div class="form-group">
@@ -214,6 +214,10 @@
           <div class="form-group">
             <label for="contactMessage">Mais informações:</label>
             <textarea class="form-control" name="contactMessage" rows="3" placeholder="Caso julgue necessário nos passar mais alguma informação relevante, aqui é o momento!"></textarea>
+          </div>
+
+          <div id="form-feedback" class="alert d-none" role="alert">
+            <span>Teste</span>
           </div>
 
           <div class="form-group">

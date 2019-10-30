@@ -4,7 +4,6 @@
 
   //mensagens
   $responseFieldsRequired = utf8_decode('Há campos obrigatórios que não foram preenchidos. Favor preenchê-los, e após isso, tente novamente!');
-  $responseValid = utf8_decode('Por favor, insira um endereço de email válido!');
   $responseSendError = utf8_decode('Infelizmente houve um erro ao enviar a mensagem. Contate o administrador do site ou tente novamente mais tarde!');
   $responseSuccess = utf8_decode('Obrigado! Sua mensagem foi enviada com sucesso (:');
 

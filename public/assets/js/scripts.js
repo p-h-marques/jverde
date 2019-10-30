@@ -82,60 +82,109 @@ $(document).on('focusout','#contactPhone',function(e){
   }
 })
 
+//feedback messages
+function feedbackCampoObrigatorio(){
+  let element = $('#form-feedback');
+  let mensagem = 'Os campos marcados com * são obrigatórios, e um ou mais deles não foram preenchidos. Por favor, preencha-os, e tente novamente!'
+
+  element.removeClass('d-none');
+  element.addClass('d-block alert-danger');
+  element.children().text(mensagem);
+}
+
+function feedbackErro(){
+  let element = $('#form-feedback');
+  let mensagem = 'Algo errado ocorreu ao enviar o formulário. Tente novamente mais tarde, ou entre em contato conosco através do nosso email ou WhatsApp, encontrados logo abaixo!';
+
+  element.removeClass('d-none');
+  element.addClass('d-block alert-danger');
+  element.children().text(mensagem);
+}
+
+function feedbackSuccess(){
+  let element = $('#form-feedback');
+  let mensagem = 'Sua mensagem foi enviada com sucesso! Aguarde, e em breve retornaremos seu contato!'
+
+  element.removeClass('d-none');
+  element.addClass('d-block alert-success');
+  element.children().text(mensagem);
+}
+
+function feedbackClear(){
+  let element = $('#form-feedback');
+
+  element.removeClass('d-block alert-sucess alert-danger');
+  element.addClass('d-none');
+  element.children().html('');
+}
+
 //ajax to send form
-jQuery(document).ready(function(){
-  jQuery(function(){
-    jQuery('#send-contact').submit(function(){
-      // jQuery('.loading').html('<img src="assets/img/loading.gif" width="40" height="40">');
-      console.log('lendo kkk')
+function sendForm(){
+  console.log('chamou função sendForm')
 
-      $.ajax({
-        //disgraça
-        url: 'includes/send-contact.php',
-        type: 'POST',
-        data: jQuery('#send-contact').serialize(),
+  $.ajax({
+    //disgraça
+    url: 'includes/send-contact.php',
+    type: 'POST',
+    data: jQuery('#send-contact').serialize(),
 
-        success: function( data ){
-          // jQuery('.loading').html('');
-          console.log('ta indo ein')
-          
-          if(data.response == 'field_required'){                       
-            //jQuery('.msg-global').html(data.msg).addClass('error').show();
-            console.log(data)
-          }
+    success: function( data ){
+      
+      if(data.response == 'field_required'){   
+        feedbackClear();                    
+        feedbackCampoObrigatorio();
+      }
 
-          if(data.response == false){                       
-            //jQuery('.msg-global').html(data.msg).addClass('error').show(); 
-            console.log(data)
-          }
+      if(data.response == false){                       
+        feedbackClear();                    
+        feedbackErro();
+      }
 
-          if(data.response == true){                       
-            // jQuery('.msg-global').html(data.msg).addClass('success').show(); 
-            console.log(data)
-            jQuery('#send-contact')[0].reset();
-          }
-        },
-        error: function (data){
-          //console.log(data); 
-          if(data.status == 404){
-            // jQuery('.loading').html('');
-            // jQuery('.msg-global').html('Não foi possível enviar sua mensagem (erro 404). <br>Envie sua mensagem por e-mail ou contate o administrador do site.').addClass('error').show();
-            console.log('deu ruim');
-          }
-        }
-      })
+      if(data.response == true){                       
+        feedbackClear();                    
+        feedbackSuccess();
+      }
+    },
 
-      .done(function(data){
-        //jQuery('.loading').html('');
-      })
+    error: function (data){ 
+      if(data.status == 404){
+        feedbackClear();                    
+        feedbackErro();
+      }
+    }
+  })
 
-      .fail(function(jqXHR, textStatus, data){
-        //jQuery('.loading').html('');
-        //jQuery('.msg-global').html('Oops, houve um erro ao enviar sua mensagem. Contate o administrador do site ou tente novamente mais tarde.').addClass('error').show();
-        console.log('deu ruim forte')           
-        });
+  .done(function(data){
+    //jQuery('.loading').html('');
+  })
 
-      return false;
+  .fail(function(jqXHR, textStatus, data){
+    feedbackClear();                    
+    feedbackErro();          
     });
-  });
+
+  return false;
+};
+
+//form submission
+$(document).on('submit','#send-contact',function(e){
+  event.preventDefault();
+  form = $('#send-contact');
+  form.removeClass('was-validated');
+  feedbackClear();
+
+  formName = $('#contactName').val();
+  formPhone = $('#contactPhone').val();
+  formCity = $('#contactCity').val();
+
+  console.log(formName, formPhone, formCity);
+
+  if (formName == '' || formPhone == '' || formCity == ''){
+    feedbackCampoObrigatorio();
+    form.addClass('was-validated');
+    console.log('tá errado');
+    event.preventDefault();
+  } else {
+    sendForm();
+  }
 });
