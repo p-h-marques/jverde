@@ -198,7 +198,7 @@
 
           <div class="form-group">
             <label for="contactEmail">Email:</label>
-            <input type="email" class="form-control" name="contactEmail" placeholder="Digite aqui seu melhor email">
+            <input type="email" class="form-control" name="contactEmail" id="contactEmail" placeholder="Digite aqui seu melhor email">
           </div>
 
           <div class="form-group">
@@ -208,12 +208,12 @@
 
           <div class="form-group">
             <label for="contactProduct">Produtos de interesse e suas medidas:</label>
-            <textarea class="form-control" name="contactProduct" rows="5" placeholder="Caso já tenha alguma demanda em mente, digite aqui o produto sobre o qual quer saber mais, e suas medidas, para que possamos já direcionar para você o melhor atendimento!"></textarea>
+            <textarea class="form-control" name="contactProduct" id="contactProduct" rows="5" placeholder="Caso já tenha alguma demanda em mente, digite aqui o produto sobre o qual quer saber mais, e suas medidas, para que possamos já direcionar para você o melhor atendimento!"></textarea>
           </div>
 
           <div class="form-group">
             <label for="contactMessage">Mais informações:</label>
-            <textarea class="form-control" name="contactMessage" rows="3" placeholder="Caso julgue necessário nos passar mais alguma informação relevante, aqui é o momento!"></textarea>
+            <textarea class="form-control" name="contactMessage" id="contactMessage" rows="3" placeholder="Caso julgue necessário nos passar mais alguma informação relevante, aqui é o momento!"></textarea>
           </div>
 
           <div id="form-feedback" class="alert d-none" role="alert">

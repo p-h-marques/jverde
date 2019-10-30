@@ -188,14 +188,27 @@ $(document).on('submit','#send-contact',function(e){
   formPhone = $('#contactPhone').val();
   formCity = $('#contactCity').val();
 
-  console.log(formName, formPhone, formCity);
+  //console.log(formName, formPhone, formCity);
 
   if (formName == '' || formPhone == '' || formCity == ''){
     feedbackCampoObrigatorio();
     form.addClass('was-validated');
-    console.log('tá errado');
     event.preventDefault();
   } else {
     sendForm();
   }
 });
+
+//clear fields
+$(document).on('click','#contactClearFields', function(e){
+  event.preventDefault();
+  $('#send-contact').removeClass('was-validated');
+  feedbackClear();
+
+  $('#contactName').val('');
+  $('#contactPhone').val('');
+  $('#contactEmail').val('');
+  $('#contactCity').val('');
+  $('#contactProduct').val('');
+  $('#contactMessage').val('');
+})
