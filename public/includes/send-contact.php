@@ -4,7 +4,7 @@
 
   //mensagens
   $responseFieldsRequired = utf8_decode('Há campos obrigatórios que não foram preenchidos. Favor preenchê-los, e após isso, tente novamente!');
-  $responseSendError = utf8_decode('Infelizmente houve um erro ao enviar a mensagem. Contate o administrador do site ou tente novamente mais tarde!');
+  $responseSendError = utf8_decode('Infelizmente houve um erro ao enviar a mensagem. Tente novamente mais tarde, ou entre em contato conosco através do nosso WhatsApp ou Email, que podem ser encontrados abaixo!');
   $responseSuccess = utf8_decode('Obrigado! Sua mensagem foi enviada com sucesso (:');
 
   if(empty($_POST['contactName']) || empty($_POST['contactPhone']) || empty($_POST['contactCity']))

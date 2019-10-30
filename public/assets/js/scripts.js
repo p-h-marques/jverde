@@ -120,7 +120,9 @@ function feedbackClear(){
 
 //ajax to send form
 function sendForm(){
-  console.log('chamou função sendForm')
+  loading = $('#form-loading');
+  loading.removeClass('d-none');
+  loading.addClass('d-inline-block');
 
   $.ajax({
     //disgraça
@@ -129,6 +131,8 @@ function sendForm(){
     data: jQuery('#send-contact').serialize(),
 
     success: function( data ){
+      loading.removeClass('d-inline-block');
+      loading.addClass('d-none');
       
       if(data.response == 'field_required'){   
         feedbackClear();                    
@@ -146,8 +150,11 @@ function sendForm(){
       }
     },
 
-    error: function (data){ 
+    error: function (data){      
       if(data.status == 404){
+        loading.removeClass('d-inline-block');
+        loading.addClass('d-none');
+
         feedbackClear();                    
         feedbackErro();
       }
@@ -155,10 +162,14 @@ function sendForm(){
   })
 
   .done(function(data){
-    //jQuery('.loading').html('');
+    loading.removeClass('d-inline-block');
+    loading.addClass('d-none');
   })
 
   .fail(function(jqXHR, textStatus, data){
+    loading.removeClass('d-inline-block');
+    loading.addClass('d-none');
+
     feedbackClear();                    
     feedbackErro();          
     });

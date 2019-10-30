@@ -217,18 +217,23 @@
           </div>
 
           <div id="form-feedback" class="alert d-none" role="alert">
-            <span>Teste</span>
+            <span></span>
           </div>
 
           <div class="form-group">
             <label class="required-text">* Campos obrigatórios.</label>
           </div>
+          
 
           <div class="row justify-content-between align-items-center">
             <div class="col-auto">
               <a href="#" id="contactClearFields">Apagar campos</a>
             </div>
-            <div class="col-auto">              
+            <div class="col-auto">
+              <div id="form-loading" class="spinner-border spinner-border-sm mr-2 d-none" role="status">
+                <span class="sr-only">Loading...</span>
+              </div>
+
               <button type="submit" class="btn">Enviar!</button>
             </div>
           </div>
