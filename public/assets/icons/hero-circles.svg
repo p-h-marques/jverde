@@ -1,7 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="778" height="778" viewBox="0 0 778 778">
-  <g id="Grupo_43" data-name="Grupo 43" transform="translate(-72 -40)">
-    <circle id="Elipse_709" data-name="Elipse 709" cx="389" cy="389" r="389" transform="translate(72 40)" fill="#99d968"/>
-    <circle id="Elipse_708" data-name="Elipse 708" cx="308" cy="308" r="308" transform="translate(153 121)" fill="#a5e177"/>
-    <circle id="Elipse_339" data-name="Elipse 339" cx="232" cy="232" r="232" transform="translate(229 197)" fill="#c1eca0"/>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 778 778" style="enable-background:new 0 0 778 778;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#5B5B5B;}
+	.st1{fill:#878787;}
+	.st2{fill:#AEAEAE;}
+</style>
+<circle id="Elipse_709" class="st0" cx="389" cy="389" r="389"/>
+<circle id="Elipse_708" class="st1" cx="389" cy="389" r="308"/>
+<circle id="Elipse_339" class="st2" cx="389" cy="389" r="232"/>
 </svg>

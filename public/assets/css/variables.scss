@@ -39,10 +39,11 @@ $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
   @include transition(all,linear,.3s);
 
   .hero-logo{
-    width: 128px!important;
-    height: 43px!important;
-    background: url(../icons/hero-logo-2.svg) no-repeat center!important;
-    @include transition(all,linear,.3s);
+    img{
+      @include transition(all,linear,.3s);
+      width: 128px!important;
+      height: 43px!important;
+    }    
   }
 
   #contactLink{

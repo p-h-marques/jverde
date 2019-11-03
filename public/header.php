@@ -23,7 +23,7 @@
   <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
     <div class="container">
       <a class="navbar-brand mr-auto hero-logo" href="#" id="logoLink">
-        
+        <img src="assets/icons/hero-logo.svg" alt="Jverde">
       </a>
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -39,7 +39,7 @@
             <a class="nav-link" href="#" id="benefitsLink">Vantagens</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" id="distributorLink">Distribuidora</a>
+            <a class="nav-link" href="#" id="distributorLink">Quem Somos</a>
           </li>
           <li class="nav-item">
             <a class="nav-link hero-button" href="#" id="contactLink">Contato</a>
@@ -53,8 +53,8 @@
     <div class="container hero-container">
       <div class="row justify-content-center hero">
         <div class="col-12 col-sm-10 col-md-8 col-lg-6 my-auto order-2 order-lg-1 text-center text-lg-left">
-          <h1 class="mt-5 mt-lg-0"> 
-            <?= $heroTitle; ?> 
+          <h1 class="mt-5 mt-lg-0">
+            <?= $heroTitle; ?>
           </h1>
           <p class="color-light"> <?= $heroDescription; ?> </p>
           <a href="#" class="hero-button" id="contactLink"> <?= $heroButton; ?> </a>
@@ -71,7 +71,5 @@
   </header>
 
 
-    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5512981805133" target="_blank" class="wpp-button">
-    </a>    
- 
-
+    <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963804422" target="_blank" class="wpp-button">
+    </a>
