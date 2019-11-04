@@ -19,7 +19,7 @@
             <a href="#" id="benefitsLink">Vantagens</a>
           </li>
           <li>
-            <a href="#" id="distributorLink">Distribuidora</a>
+            <a href="#" id="distributorLink">Quem Somos</a>
           </li>
           <li>
             <a href="#" id="contactLink">Contato</a>
@@ -45,7 +45,7 @@
         </ul>
       </div>
 
-      <div class="mt-lg-0 mt-5 col-sm-1 col-12 text-center text-sm-left">        
+      <div class="mt-lg-0 mt-5 col-sm-1 col-12 text-center text-sm-left">
         <img src="assets/icons/footer-logo-dev.svg" class="logo-pm">
       </div>
     </div>

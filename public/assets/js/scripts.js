@@ -6,7 +6,7 @@ jQuery(document).ready(function(e){
     jQuery('#navbar').removeClass('scroll');
   }
 
-  jQuery(window).scroll(function(){    
+  jQuery(window).scroll(function(){
 
     if ( $(this).scrollTop() > 0) {
       jQuery('#navbar').addClass('scroll');
@@ -20,17 +20,21 @@ jQuery(document).ready(function(e){
 //closing mobile menu with outside touch
 $(document).mousedown(function(e){
   click = $(e.target);
+  button = $('.navbar-toggler')
   menu = $('.show');
 
-  if(!click.closest('.show').length){
+  if(!click.closest(menu).length && !click.closest(button).length){
     menu.removeClass('show');
-  }  
+  }
 });
 
 
 //anchor links
 $(document).on('click','#productsLink',function(e){
   e.preventDefault();
+
+  menu = $('.show');
+  menu.removeClass('show');
 
   $('html, body').animate({
     scrollTop: $('#products').offset().top -180}, '500');
@@ -40,6 +44,9 @@ $(document).on('click','#productsLink',function(e){
 $(document).on('click','#benefitsLink',function(e){
   e.preventDefault();
 
+  menu = $('.show');
+  menu.removeClass('show');
+
   $('html, body').animate({
     scrollTop: $('#benefits').offset().top -280}, '500');
     return true;
@@ -47,6 +54,9 @@ $(document).on('click','#benefitsLink',function(e){
 
 $(document).on('click','#distributorLink',function(e){
   e.preventDefault();
+
+  menu = $('.show');
+  menu.removeClass('show');
 
   $('html, body').animate({
     scrollTop: $('#distributor').offset().top -130}, '500');
@@ -56,6 +66,9 @@ $(document).on('click','#distributorLink',function(e){
 $(document).on('click','#contactLink',function(e){
   e.preventDefault();
 
+  menu = $('.show');
+  menu.removeClass('show');
+
   $('html, body').animate({
     scrollTop: $('#contact').offset().top -130}, '500');
     return true;
@@ -63,6 +76,9 @@ $(document).on('click','#contactLink',function(e){
 
 $(document).on('click','#logoLink',function(e){
   e.preventDefault();
+
+  menu = $('.show');
+  menu.removeClass('show');
 
   $('html, body').animate({
     scrollTop: $('body').offset().top}, '500');
@@ -133,29 +149,29 @@ function sendForm(){
     success: function( data ){
       loading.removeClass('d-inline-block');
       loading.addClass('d-none');
-      
-      if(data.response == 'field_required'){   
-        feedbackClear();                    
+
+      if(data.response == 'field_required'){
+        feedbackClear();
         feedbackCampoObrigatorio();
       }
 
-      if(data.response == false){                       
-        feedbackClear();                    
+      if(data.response == false){
+        feedbackClear();
         feedbackErro();
       }
 
-      if(data.response == true){                       
-        feedbackClear();                    
+      if(data.response == true){
+        feedbackClear();
         feedbackSuccess();
       }
     },
 
-    error: function (data){      
+    error: function (data){
       if(data.status == 404){
         loading.removeClass('d-inline-block');
         loading.addClass('d-none');
 
-        feedbackClear();                    
+        feedbackClear();
         feedbackErro();
       }
     }
@@ -170,8 +186,8 @@ function sendForm(){
     loading.removeClass('d-inline-block');
     loading.addClass('d-none');
 
-    feedbackClear();                    
-    feedbackErro();          
+    feedbackClear();
+    feedbackErro();
     });
 
   return false;

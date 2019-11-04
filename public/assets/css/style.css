@@ -125,7 +125,7 @@ nav.navbar a.navbar-brand.hero-logo {
 }
 @media all and (max-width: 991px) {
   nav.navbar a.navbar-brand.hero-logo {
-    padding: 0px;
+    padding: 17px 0px 18px 0px;
   }
 }
 nav.navbar a.navbar-brand.hero-logo img {
