@@ -27,15 +27,16 @@
       $Email->SetLanguage("br");
       $Email->IsSMTP(); // Habilita o SMTP
       $Email->SMTPAuth = true; //Ativa e-mail autenticado
-      $Email->Host = 'email-ssl.com.br'; // Servidor de envio # verificar qual o host correto com a hospedagem as vezes fica como smtp.
-      $Email->Port = '587'; // Porta de envio
-      $Email->Username = 'jverde@pedromarques.comercial.ws'; //e-mail que será autenticado
-      $Email->Password = '@Jverde2019'; // senha do email
+      $Email->SMTPSecure = 'ssl';
+      $Email->Host = 'mail.jverde.com.br'; // Servidor de envio # verificar qual o host correto com a hospedagem as vezes fica como smtp.
+      $Email->Port = '465'; // Porta de envio
+      $Email->Username = 'formulario-site@jverde.com.br'; //e-mail que será autenticado
+      $Email->Password = 'jverde2019'; // senha do email
       $Email->IsHTML(true); // ativa o envio de e-mails em HTML, se false, desativa.
-      $Email->From = 'jverde@pedromarques.comercial.ws'; // email do remetente da mensagem
+      $Email->From = 'formulario-site@jverde.com.br'; // email do remetente da mensagem
       $Email->FromName = $nome; // nome do remetente do email
-      // $Email->AddReplyTo($email, $nome); // Endereço de destino do emaail, ou seja, pra onde você quer que a mensagem do formulário vá?
-      $Email->AddAddress("dg.pedromarques@gmail.com"); // para quem será enviada a mensagem
+      // $Email->AddReplyTo($email, $nome); // Endereço de destino do email, ou seja, pra onde você quer que a mensagem do formulário vá?
+      $Email->AddAddress("contato@jverde.com.br"); // para quem será enviada a mensagem
       $Email->Subject = "Contato via site - Jverde"; // informando no email, o assunto da mensagem
 
       // Define o texto da mensagem (aceita HTML)
