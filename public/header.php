@@ -54,7 +54,7 @@
       <div class="row justify-content-center hero">
         <div class="col-12 col-sm-10 col-md-8 col-lg-6 my-auto order-2 order-lg-1 text-center text-lg-left">
           <h1 class="mt-5 mt-lg-0">
-            <?= $heroTitle; ?>
+            Pensou tapete,<br>pensou <span class="color-green1">J</span>verde!
           </h1>
           <p class="color-light"> <?= $heroDescription; ?> </p>
           <a href="#" class="hero-button" id="contactLink"> <?= $heroButton; ?> </a>

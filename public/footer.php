@@ -32,7 +32,7 @@
           <li><strong>Contato</strong></li>
           <li>
             <img src="assets/icons/footer-whatsapp.svg" class="logo-whatsapp" alt="WhatsApp">
-            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5512981805133" target="_blank">
+            <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511963804422" target="_blank">
               <span>11.96380.4422</span>
             </a>
           </li>
@@ -46,7 +46,9 @@
       </div>
 
       <div class="mt-lg-0 mt-5 col-sm-1 col-12 text-center text-sm-left">
-        <img src="assets/icons/footer-logo-dev.svg" class="logo-pm">
+        <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5512981805133" target="_blank">
+          <img src="assets/icons/footer-logo-dev.svg" class="logo-pm">
+        </a>
       </div>
     </div>
   </div>
