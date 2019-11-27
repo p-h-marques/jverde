@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
+    <link rel="stylesheet" type="text/css" href="assets/css/animations/animate.css">
+
     <link rel="shortcut icon" href="assets/icons/favicon.svg">
 
     <!-- SEO -->
@@ -21,7 +23,7 @@
 
 <body>
   <nav class="navbar fixed-top navbar-expand-lg" id="navbar">
-    <div class="container">
+    <div class="container post">
       <a class="navbar-brand mr-auto hero-logo" href="#" id="logoLink">
         <img src="assets/icons/hero-logo.svg" alt="Jverde">
       </a>
@@ -52,14 +54,14 @@
   <header>
     <div class="container hero-container">
       <div class="row justify-content-center hero">
-        <div class="col-12 col-sm-10 col-md-8 col-lg-6 my-auto order-2 order-lg-1 text-center text-lg-left">
+        <div class="col-12 col-sm-10 col-md-8 col-lg-6 my-auto order-2 order-lg-1 text-center text-lg-left post">
           <h1 class="mt-5 mt-lg-0">
             Pensou tapete,<br>pensou <span class="color-green1">J</span>verde!
           </h1>
           <p class="color-light"> <?= $heroDescription; ?> </p>
           <a href="#" class="hero-button" id="contactLink"> <?= $heroButton; ?> </a>
         </div>
-        <div class="col-lg-6 m-auto hero-points order-1 order-lg-2">
+        <div class="col-lg-6 m-auto hero-points order-1 order-lg-2 post">
           <div class="hero-images mx-auto my-lg-0">
             <img src="assets/img/principal1.jpg" class="hero-image-1"  alt="Tapetes Personalizados">
             <img src="assets/img/principal2.jpg" class="hero-image-2" alt="Clean Kaps">

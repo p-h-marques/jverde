@@ -4,20 +4,20 @@
 
 <section class="products" id="products">
   <div class="container">
-    <div class="row justify-content-around products-intro">
+    <div class="row justify-content-around products-intro post">
       <div class="col-md-6 col-lg-4 col-xl-4 text-center">
-        <h2 class="">Conheça nossos</h2> 
+        <h2 class="">Conheça nossos</h2>
         <h2 class="highlight mt-2">produtos!</h2>
       </div>
-      
+
       <div class="col-md-6 col-lg-7 col-xl-6 mt-4 mt-md-0">
         <p class="products-description text-center text-md-left">
-          <?= $productsDescription; ?> 
+          <?= $productsDescription; ?>
         </p>
       </div>
     </div>
 
-    <div class="row no-gutters products-principal">
+    <div class="row no-gutters products-principal post">
       <div class="col-lg-6 text-l order-2 order-lg-1">
         <div class="d-flex flex-column h-100 justify-content-end">
           <div>
@@ -34,7 +34,7 @@
       <div class="col-lg-6 img-r order-1 order-lg-2"></div>
     </div>
 
-    <div class="row no-gutters products-principal">
+    <div class="row no-gutters products-principal post">
       <div class="col-lg-6 img-l"></div>
 
       <div class="col-lg-6 text-r">
@@ -48,16 +48,16 @@
             </p>
           </div>
         </div>
-      </div>      
+      </div>
     </div>
 
-    <div class="row justify-content-center">
+    <div class="row justify-content-center post">
       <div class="col-12 text-center">
         <h3 >Outros Produtos:</h3>
       </div>
     </div>
 
-    <div class="row products-others justify-content-center">
+    <div class="row products-others justify-content-center post hidden">
       <div class="col-sm-6 col-md-4 col-lg text-center product">
         <div class="img-product img1"></div>
         <div class="text-product"><span><?= $productsOthers1; ?></span></div>
@@ -90,8 +90,8 @@
   <div class="container">
     <div class="row justify-content-center mx-0">
       <div class="col-lg-10 col-12 benefits-title">
-        
-        <div class="row no-gutters justify-content-center">
+
+        <div class="row no-gutters justify-content-center post">
           <div class="col-md-auto col-12 text-center text-md-left">
             <img src="assets/icons/benefits-title.svg" alt="Nossas vantagens">
           </div>
@@ -105,9 +105,9 @@
 
      <div class="benefits-items">
 
-      <div class="row">
+      <div class="row post">
         <div class="col-lg-6">
-          <div class="row no-gutters h-100">
+          <div class="row no-gutters h-100 post">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
               <img src="assets/icons/benefits-limpeza.svg" alt="Limpeza">
             </div>
@@ -119,7 +119,7 @@
         </div>
 
         <div class="col-lg-6 mt-lg-0 mt-5">
-          <div class="row no-gutters h-100">
+          <div class="row no-gutters h-100 post">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
               <img src="assets/icons/benefits-estetica.svg" alt="Estética">
             </div>
@@ -131,7 +131,7 @@
         </div>
 
         <div class="col-lg-6 mt-5">
-          <div class="row no-gutters h-100">
+          <div class="row no-gutters h-100 post">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
               <img src="assets/icons/benefits-seguranca.svg" alt="Segurança">
             </div>
@@ -143,7 +143,7 @@
         </div>
 
         <div class="col-lg-6  mt-5">
-          <div class="row no-gutters h-100">
+          <div class="row no-gutters h-100 post">
             <div class="col-sm-auto col-12 text-center text-sm-left align-self-center">
               <img src="assets/icons/benefits-marketing.svg" alt="Marketing">
             </div>
@@ -163,10 +163,10 @@
   <div class="container">
     <div class="row align-items-center justify-content-center">
       <div class="col-lg-5 col-md-10 col-sm-10 col-12 mb-4 mb-lg-0 text-center text-lg-left">
-        <h2> <?= $distributorTitle; ?> </h2>
-        <p> <?= $distributorDescription; ?> </p>
+        <h2 class="post"> <?= $distributorTitle; ?> </h2>
+        <p class="post"> <?= $distributorDescription; ?> </p>
       </div>
-      <div class="distributor-img col-lg-7 col-md-10 col-11">
+      <div class="distributor-img col-lg-7 col-md-10 col-11 post">
         <img src="assets/img/kapazi.jpg" alt="Distribuidora Kapazi, líder de mercado em tapetes e capachos do Brasil!">
       </div>
     </div>
@@ -175,7 +175,7 @@
 
 <section class="contact" id="contact">
   <div class="container">
-    <div class="row contact-description justify-content-center justify-content-lg-start">
+    <div class="row contact-description justify-content-center justify-content-lg-start post">
       <div class="col-12 col-sm-8 col-lg-5">
         <h2> <?= $contactTitle; ?> </h2>
         <p> <?= $contactDescription; ?> </p>
@@ -186,32 +186,32 @@
       <div class="offset-lg-5 col-lg-6 col-sm-10 contact-form-box">
 
         <form action="" method="post" id="send-contact" class="needs-validation" novalidate>
-          <div class="form-group">
+          <div class="form-group post">
             <label for="contactName">Nome: *</label>
             <input type="text" class="form-control" name="contactName" id="contactName" placeholder="Digite aqui seu nome" required>
           </div>
 
-          <div class="form-group">
+          <div class="form-group post">
             <label for="contactPhone">Telefone: *</label>
             <input type="text" class="form-control" name="contactPhone" id="contactPhone" placeholder="Use o formato (12) 99999-9999" required>
           </div>
 
-          <div class="form-group">
+          <div class="form-group post">
             <label for="contactEmail">Email:</label>
             <input type="email" class="form-control" name="contactEmail" id="contactEmail" placeholder="Digite aqui seu melhor email">
           </div>
 
-          <div class="form-group">
+          <div class="form-group post">
             <label for="contactCity">Cidade: *</label>
             <input type="text" class="form-control" name="contactCity" id= "contactCity" placeholder="Digite aqui sua cidade e seu estado" required>
           </div>
 
-          <div class="form-group">
+          <div class="form-group post">
             <label for="contactProduct">Produtos de interesse e suas medidas:</label>
             <textarea class="form-control" name="contactProduct" id="contactProduct" rows="5" placeholder="Caso já tenha alguma demanda em mente, digite aqui o produto sobre o qual quer saber mais, e suas medidas, para que possamos já direcionar para você o melhor atendimento!"></textarea>
           </div>
 
-          <div class="form-group">
+          <div class="form-group post">
             <label for="contactMessage">Mais informações:</label>
             <textarea class="form-control" name="contactMessage" id="contactMessage" rows="3" placeholder="Caso julgue necessário nos passar mais alguma informação relevante, aqui é o momento!"></textarea>
           </div>
@@ -223,9 +223,9 @@
           <div class="form-group">
             <label class="required-text">* Campos obrigatórios.</label>
           </div>
-          
 
-          <div class="row justify-content-between align-items-center">
+
+          <div class="row justify-content-between align-items-center post">
             <div class="col-auto">
               <a href="#" id="contactClearFields">Apagar campos</a>
             </div>
