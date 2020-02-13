@@ -159,13 +159,13 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button {
   border: 2px solid #FFFFFF;
   border-radius: 5px;
   background: #FFFFFF;
-  color: #484848;
+  color: #6DBE45;
   padding: 5px 15px;
   font-weight: bold;
 }
 nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
-  background: #6DBE45;
-  border: 2px solid #6DBE45;
+  background: #484848;
+  border: 2px solid #484848;
   color: #FFFFFF;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
@@ -192,7 +192,7 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
     display: inline-block;
     margin-left: 8px;
     padding-bottom: 5px;
-    color: #484848;
+    color: #6DBE45;
   }
   nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
     padding: 5px 15px;
@@ -220,7 +220,7 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
 }
 
 header {
-  background: linear-gradient(45deg, #484848, #313131);
+  background: linear-gradient(90deg, #6DBE45, #99D968);
   height: 100%;
 }
 header .hero {
@@ -235,14 +235,14 @@ header .hero a.hero-button {
   border: 2px solid #FFFFFF;
   border-radius: 5px;
   background: #FFFFFF;
-  color: #484848;
+  color: #6DBE45;
   padding: 5px 15px;
   font-weight: bold;
 }
 header .hero a.hero-button:hover {
   text-decoration: none;
-  background: #6DBE45;
-  border: 2px solid #6DBE45;
+  background: #484848;
+  border: 2px solid #484848;
   color: #FFFFFF;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
