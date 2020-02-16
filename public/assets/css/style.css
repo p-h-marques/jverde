@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap");
 .scroll {
-  background: #484848;
+  background: linear-gradient(90deg, #6DBE45, #99D968);
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
   height: 80px !important;
   -webkit-transition: all linear 0.3s;
@@ -13,12 +13,6 @@
   transition: all linear 0.3s;
   width: 128px !important;
   height: 43px !important;
-}
-.scroll #contactLink {
-  color: #484848 !important;
-}
-.scroll #contactLink:hover {
-  color: #FFFFFF !important;
 }
 
 .color-light {
@@ -164,8 +158,8 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button {
   font-weight: bold;
 }
 nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
-  background: #484848;
-  border: 2px solid #484848;
+  background: #3E6BBC;
+  border: 2px solid #3E6BBC;
   color: #FFFFFF;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }
@@ -241,8 +235,8 @@ header .hero a.hero-button {
 }
 header .hero a.hero-button:hover {
   text-decoration: none;
-  background: #484848;
-  border: 2px solid #484848;
+  background: #3E6BBC;
+  border: 2px solid #3E6BBC;
   color: #FFFFFF;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
 }

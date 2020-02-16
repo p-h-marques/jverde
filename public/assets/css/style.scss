@@ -72,8 +72,8 @@ nav.navbar{
         font-weight: bold;
 
         &:hover{
-          background: $dark1;
-          border: 2px solid $dark1;
+          background: $blue;
+          border: 2px solid $blue;
           color: $light;
           box-shadow: $sombra;
         }
@@ -159,8 +159,8 @@ header{
 
       &:hover{
         text-decoration: none;
-        background: $dark1;
-        border: 2px solid $dark1;
+        background: $blue;
+        border: 2px solid $blue;
         color: $light;
         box-shadow: $sombra;
       }
