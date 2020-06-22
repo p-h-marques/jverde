@@ -1,11 +1,15 @@
 <footer>
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-2 col-12 mb-lg-0 mb-5 text-lg-left text-center">
+      <div class="text-right col-lg-2 col-6">
         <img src="assets/icons/footer-logo.svg" class="logo-jverde" alt="JVerde">
       </div>
 
-      <div class="col-lg-2 col-md-4 col-sm-6 col-12 text-sm-left text-center">
+      <div class="col-lg-1 col-6">
+        <img src="assets/img/selo.jpg" class="selo" alt="Mundo Melhor Kapazi: Produtos ecologicamente corretos!">
+      </div>
+
+      <div class="mt-lg-0 mt-5 col-lg-2 col-sm-3 col-12 text-center text-sm-left">
         <ul>
           <li><strong>Seções</strong></li>
           <li>
@@ -23,7 +27,7 @@
         </ul>
       </div>
 
-      <div class="col-lg-3 col-md-4 col-sm-6 col-12 mt-sm-0 mt-5 text-sm-left text-center">
+      <div class="mt-lg-0 mt-5 col-lg-6 col-sm-8 col-12 text-center text-sm-left">
         <ul>
           <li><strong>Contato</strong></li>
           <li>
@@ -41,7 +45,7 @@
         </ul>
       </div>
 
-      <div class="ml-md-auto col-auto mt-md-0 mt-5 mx-md-0 mx-auto">
+      <div class="mt-lg-0 mt-5 col-sm-1 col-12 text-center text-sm-left">
         <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5512981805133" target="_blank">
           <img src="assets/icons/footer-logo-dev.svg" class="logo-pm">
         </a>

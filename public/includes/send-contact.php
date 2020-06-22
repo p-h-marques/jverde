@@ -36,7 +36,7 @@
       $Email->From = 'formulario-site@jverde.com.br'; // email do remetente da mensagem
       $Email->FromName = $nome; // nome do remetente do email
       // $Email->AddReplyTo($email, $nome); // Endereço de destino do email, ou seja, pra onde você quer que a mensagem do formulário vá?
-      $Email->AddAddress("dg.pedromarques@gmail.com"); // para quem será enviada a mensagem
+      $Email->AddAddress("contato@jverde.com.br"); // para quem será enviada a mensagem
       $Email->Subject = "Contato via site - Jverde"; // informando no email, o assunto da mensagem
 
       // Define o texto da mensagem (aceita HTML)

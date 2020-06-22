@@ -67,13 +67,13 @@ nav.navbar{
         border: 2px solid $light;
         border-radius: $border-radius;
         background: $light;
-        color: $green1;
+        color: $dark1;
         padding: 5px 15px;
         font-weight: bold;
 
         &:hover{
-          background: $blue;
-          border: 2px solid $blue;
+          background: $green1;
+          border: 2px solid $green1;
           color: $light;
           box-shadow: $sombra;
         }
@@ -107,7 +107,7 @@ nav.navbar{
           display: inline-block;
           margin-left: 8px;
           padding-bottom: 5px;
-          color: $green1;
+          color: $dark1;
 
           &:hover{
             padding: 5px 15px;
@@ -137,7 +137,7 @@ nav.navbar{
 }
 
 header{
-  background: $grad-green;
+  background: $grad-dark;
   height: 100%;
 
   .hero{
@@ -153,14 +153,14 @@ header{
       border: 2px solid $light;
       border-radius: $border-radius;
       background: $light;
-      color: $green1;
+      color: $dark1;
       padding: 5px 15px;
       font-weight: bold;
 
       &:hover{
         text-decoration: none;
-        background: $blue;
-        border: 2px solid $blue;
+        background: $green1;
+        border: 2px solid $green1;
         color: $light;
         box-shadow: $sombra;
       }

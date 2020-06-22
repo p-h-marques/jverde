@@ -33,7 +33,7 @@ $border-radius-bottom: 0px 0px 5px 5px;
 $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
 
 .scroll{
-  background: $grad-green;
+  background: $dark1;
   box-shadow: $sombra;
   height: 80px!important;
   @include transition(all,linear,.3s);
@@ -43,6 +43,14 @@ $sombra: 0px 0px 5px rgba(0, 0, 0, .1);
       @include transition(all,linear,.3s);
       width: 128px!important;
       height: 43px!important;
+    }    
+  }
+
+  #contactLink{
+    color: $dark1!important;
+
+    &:hover{
+      color: $light!important;
     }
   }
 }
