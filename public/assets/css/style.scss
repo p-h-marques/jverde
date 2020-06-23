@@ -144,19 +144,19 @@ header{
   padding-bottom: 70px;
   height: 600px;
 
-  @media all and (max-width: 991px){
+  @media all and (max-width: 1199px){
     background-size: auto 450px;
     height: 450px;
   }
 
-  @media all and (max-width: 767px){
+  @media all and (max-width: 991px){
     background-size: auto 400px;
     height: 400px;
   }
 
-  @media all and (max-width: 575px){
+  @media all and (max-width: 767px){
     background-size: auto 300px;
-    height: 300px;
+    height: 350px;
   }
 
   .hero{
