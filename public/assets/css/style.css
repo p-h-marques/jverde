@@ -201,11 +201,12 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
 }
 
 .hero-container {
-  background: url("../icons/hero-circles.svg") no-repeat;
+  background: url("../img/tapete-sanitizante.jpg") no-repeat;
   background-position: 100% 50%;
-  background-size: contain;
+  background-size: cover;
   padding-top: 120px;
   padding-bottom: 70px;
+  height: 600px;
 }
 @media all and (max-width: 1199px) {
   .hero-container {
@@ -220,8 +221,28 @@ nav.navbar ul.navbar-nav li.nav-item a.hero-button:hover {
 }
 
 header {
-  background: linear-gradient(45deg, #484848, #313131);
-  height: 100%;
+  background: url("../img/tapete-sanitizante.jpg") no-repeat center bottom, #fb7268;
+  padding-top: 120px;
+  padding-bottom: 70px;
+  height: 600px;
+}
+@media all and (max-width: 991px) {
+  header {
+    background-size: auto 450px;
+    height: 450px;
+  }
+}
+@media all and (max-width: 767px) {
+  header {
+    background-size: auto 400px;
+    height: 400px;
+  }
+}
+@media all and (max-width: 575px) {
+  header {
+    background-size: auto 300px;
+    height: 300px;
+  }
 }
 header .hero {
   min-height: 470px;
@@ -759,10 +780,10 @@ footer img.selo {
   right: 5%;
   width: 70px;
   height: 70px;
-  background: url("../icons/whatsapp-button.svg") center no-repeat;
+  background: url("../icons/whatsapp-button-hover.svg") center no-repeat;
 }
 .wpp-button:hover {
-  background: url("../icons/whatsapp-button-hover.svg") center no-repeat;
+  background: url("../icons/whatsapp-button.svg") center no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */

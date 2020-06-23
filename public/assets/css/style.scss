@@ -119,12 +119,14 @@ nav.navbar{
   }
 }
 
+//removido por solicitação do cliente
 .hero-container{
-  background: url("../icons/hero-circles.svg") no-repeat;
+  background: url("../img/tapete-sanitizante.jpg") no-repeat;
   background-position: 100% 50%;
-  background-size: contain;
+  background-size: cover;
   padding-top: 120px;
   padding-bottom: 70px;
+  height: 600px;
 
   @media all and (max-width: 1199px){
     background-size: 80% 80%;
@@ -137,8 +139,25 @@ nav.navbar{
 }
 
 header{
-  background: $grad-dark;
-  height: 100%;
+  background: url("../img/tapete-sanitizante.jpg") no-repeat center bottom, $orange;
+  padding-top: 120px;
+  padding-bottom: 70px;
+  height: 600px;
+
+  @media all and (max-width: 991px){
+    background-size: auto 450px;
+    height: 450px;
+  }
+
+  @media all and (max-width: 767px){
+    background-size: auto 400px;
+    height: 400px;
+  }
+
+  @media all and (max-width: 575px){
+    background-size: auto 300px;
+    height: 300px;
+  }
 
   .hero{
     min-height: 470px;
@@ -756,9 +775,9 @@ footer{
   right: 5%;
   width: 70px;
   height: 70px;
-  background: url('../icons/whatsapp-button.svg') center no-repeat;
+  background: url('../icons/whatsapp-button-hover.svg') center no-repeat;
 
   &:hover{
-    background: url('../icons/whatsapp-button-hover.svg') center no-repeat;
+    background: url('../icons/whatsapp-button.svg') center no-repeat;
   }
 }
