@@ -154,9 +154,9 @@ header{
     height: 400px;
   }
 
-  @media all and (max-width: 767px){
-    background-size: auto 300px;
-    height: 350px;
+  @media all and (max-width: 575px){
+    background-size: auto 500px;
+    height: 500px;
   }
 
   .hero{
